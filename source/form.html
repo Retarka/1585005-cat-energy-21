@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-  <title>Кэт энерджи</title>
+  <title>Форма|Кэт энерджи</title>
 </head>
 <body class="page">
   <header class="page-header">
@@ -28,18 +28,21 @@
 </nav>
 </header>
 <main class="page__main">
-  <section class="page__main__wrapper  wrapper">
-    <div class="page__main__profile">
-      <h3 class="page__main__profile-title">Подбор программы</h3>
-      <p class="page__main__description">Заполните анкету, и мы подберем
+
+
+ <section class="intro">
+   <h1 class="intro__title">Подбор программы</h1>
+    <p class="intro__description">Заполните анкету, и мы подберем
       программу питания для вашего кота</p>
-    </div>
+ </section>
+
+  <section class="page__main__wrapper  wrapper">
     <form class="page__main__form form" action="https://echo.htmlacademy.ru" method="post">
       <div class="form__wrapper form__wrapper--profile">
         <fieldset class="form__profile-group">
           <div class="form__item">
            <label class="form__label" for="input-name">ИМЯ:*</label>
-           <input class="form__input" id="input-name" name="name" type="text" placeholder="Барсик"  required>
+           <input class="form__input" id="input-name" name="name" type="text" placeholder="Барсик" required>
          </div>
          <div class="form__item">
            <label class="form__label"  for="input-weight">Вес (кг):*</label>
@@ -56,15 +59,15 @@
         <ul class="form__purpose-list">
           <li class="form__item-radio">
             <input class="form__input-radio" type="radio" name="purpose-group" value="Thin" id="filter-Thin" checked>
-            <label for="form__label-radio">похудение</label>
+            <label class="form__label-radio" for="filter-Thin">похудение</label>
           </li>
           <li class="form__item-radio">
             <input class="form__input-radio" type="radio" name="purpose-group" value="weight-gain" id="filter-weight-gain">
-            <label for="form__label-radio">Набор массы</label>
+            <label class="form__label-radio" for="filter-weight-gain">Набор массы</label>
           </li>
           <li class="form__item-radio">
             <input class="form__input-radio" type="radio" name="purpose-group" value="advice" id="filter-advice">
-            <label for="form__label-radio">Не знаю (Нужен ваш совет)</label>
+            <label class="form__label-radio" for="filter-advice">Не знаю (Нужен ваш совет)</label>
           </li>
         </ul>
       </fieldset>
@@ -78,7 +81,7 @@
        </div>
        <div class="form__item">
          <label class="form__label" for="input-phone" id="label-phone">Телефон:*</label>  <!-- иконка -->
-         <input  class="form__input" type="phone" id="input-phone" placeholder="8 (960) 900-60-90" aria-labelledby="label-phone">
+         <input  class="form__input" type="tel" id="input-phone" placeholder="8 (960) 900-60-90" aria-labelledby="label-phone">
        </div>
      </fieldset>
    </div>
@@ -86,7 +89,7 @@
     <h3 class="form__wrapper-title">Комментарий</h3>
     <div class="form__group-comment">
       <div class="form__item">
-       <textarea class="form__user form__user--comment" id="input-text" placeholder="Расскажите обо всех повАдках кота" required></textarea>
+       <textarea class="form__user form__user--comment" name="comment" placeholder="Расскажите обо всех повАдках кота" required></textarea>
      </div>
    </div>
  </div>
@@ -96,19 +99,19 @@
     <ul class="form__list">
       <li class="form__filter filter-checkbox">
         <input class="filter-checkbox__input" type="checkbox" name="sweetener" id="filter-sweetener" checked>
-        <label for="filter-checkbox__label">сахарозаменитель</label>
+        <label class="filter-checkbox__label" for="filter-sweetener">сахарозаменитель</label>
       </li>
       <li class="form__filter filter-checkbox">
         <input class="filter-checkbox__input" type="checkbox" name="water" id="filter-water">
-        <label for="filter-checkbox__label">питьевая вода</label>
+        <label class="filter-checkbox__label" for="filter-water">питьевая вода</label>
       </li>
       <li class="form__filter filter-checkbox">
         <input class="filter-checkbox__input" type="checkbox" name="milk" id="filter-milk">
-        <label for="filter-milk">молоко</label>
+        <label class="filter-milk__label" for="filter-milk">молоко</label>
       </li>
       <li class="form__filter filter-checkbox">
         <input class="filter-checkbox__input" type="checkbox" name="vitamins" id="filter-vitamins">
-        <label for="filter-checkbox__label">витамины</label>
+        <label class="filter-checkbox__label" for="filter-vitamins">витамины</label>
       </li>
     </ul>
   </fieldset>
@@ -122,7 +125,7 @@
 </div>
 </div>
 </form>
-</div>
+</section>
 </main>
 <footer class="page-footer">
   <div class="page-footer__wrapper">
@@ -158,5 +161,6 @@
   </div>
 </div>
 </footer>
+
 </body>
 </html>
