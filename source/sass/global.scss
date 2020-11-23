@@ -1,4 +1,4 @@
-.page__body{
+body{
   font-family: Oswald;
   font-style: normal;
   font-weight: normal;
@@ -8,11 +8,11 @@
   margin:0;
 }
 
- .page__body a {
+ body a {
   text-decoration: none;
 }
 
- .page__body img {
+  img {
   max-width: 100%;
   height: auto;
 }

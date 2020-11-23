@@ -3,6 +3,9 @@
 <head>
   <meta charset="utf-8">
   <title>Форма|Кэт энерджи</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preload" href="/fonts/oswaldregular.woff2" as="font">
+  <link rel="preload" href="/fonts/oswaldmedium.woff2" as="font">
 </head>
 <body class="page">
   <header class="page-header">
@@ -45,12 +48,12 @@
            <input class="form__input" id="input-name" name="name" type="text" placeholder="Барсик" required>
          </div>
          <div class="form__item">
-           <label class="form__label"  for="input-weight">Вес (кг):*</label>
-           <input class="form__input"  id="input-weight" type="text" name="weight" placeholder="7" required>
+           <label class="form__label" for="input-weight">Вес (кг):*</label>
+           <input class="form__input" id="input-weight" type="text" name="weight" placeholder="7" required>
          </div>
          <div class="form__item">
            <label class="form__label" for="input-age">Возраст (лет):</label>
-           <input class="form__input"  id="input-age" type="text" name="age" placeholder="7" required>
+           <input class="form__input" id="input-age" type="text" name="age" placeholder="7" required>
          </div>
        </fieldset>
      </div>
@@ -86,7 +89,7 @@
      </fieldset>
    </div>
    <div class="form__wrapper form__wrapper--comment">
-    <h3 class="form__wrapper-title">Комментарий</h3>
+    <h3 class="form__comment-title">Комментарий</h3>
     <div class="form__group-comment">
       <div class="form__item">
        <textarea class="form__user form__user--comment" name="comment" placeholder="Расскажите обо всех повАдках кота" required></textarea>
@@ -95,7 +98,7 @@
  </div>
  <div class="form__wrapper form__wrapper--withal">
    <fieldset class="form__group-withal">
-    <legend class="form__title">Дополнительно</legend>
+    <legend class="form__withal-title">Дополнительно</legend>
     <ul class="form__list">
       <li class="form__filter filter-checkbox">
         <input class="filter-checkbox__input" type="checkbox" name="sweetener" id="filter-sweetener" checked>
@@ -107,7 +110,7 @@
       </li>
       <li class="form__filter filter-checkbox">
         <input class="filter-checkbox__input" type="checkbox" name="milk" id="filter-milk">
-        <label class="filter-milk__label" for="filter-milk">молоко</label>
+        <label class="filter-checkbox__label" for="filter-milk">молоко</label>
       </li>
       <li class="form__filter filter-checkbox">
         <input class="filter-checkbox__input" type="checkbox" name="vitamins" id="filter-vitamins">
