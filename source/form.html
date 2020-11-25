@@ -32,6 +32,7 @@
 </header>
 <main class="page__main">
 
+
  <section class="intro">
    <h1 class="intro__title">Подбор программы</h1>
     <p class="intro__description">Заполните анкету, и мы подберем
@@ -41,18 +42,27 @@
   <section class="page__main__wrapper  wrapper">
     <form class="page__main__form form" action="https://echo.htmlacademy.ru" method="post">
       <div class="form__wrapper form__wrapper--profile">
+
         <fieldset class="form__fieldset form__fieldset--profile">
           <div class="form__item">
            <label class="form__label" for="input-name">ИМЯ:*</label>
            <input class="form__input" id="input-name" name="name" type="text" placeholder="Барсик" required>
          </div>
          <div class="form__item">
+
            <label class="form__label" for="input-weight">Вес (кг):*</label>
            <input class="form__input" id="input-weight" type="text" name="weight" placeholder="7" required>
          </div>
          <div class="form__item">
            <label class="form__label" for="input-age">Возраст (лет):</label>
            <input class="form__input" id="input-age" type="text" name="age" placeholder="7" required>
+
+           <label class="form__label"  for="input-weight">Вес (кг):*</label>
+           <input class="form__input"  id="input-weight" type="text" name="weight" placeholder="7" required>
+         </div>
+         <div class="form__item">
+           <label class="form__label" for="input-age">Возраст (лет):</label>
+           <input class="form__input"  id="input-age" type="text" name="age" placeholder="7" required>
          </div>
        </fieldset>
      </div>
@@ -76,7 +86,7 @@
     </div>
     <div class="form__wrapper form__wrapper--owner">
       <h3 class="form__owner-title">Контактные данные(владельца кота)</h3>
-      <fieldset class="form__fieldset form__fieldset--owner">
+      <fieldset class="form__group form__group--owner">
         <div class="form__item">
          <label class="form__label form__label--email"  for="input-email">E-mail:*</label>  <!-- иконка -->
          <input class="form__input"  id="input-email" type="email" name="email" placeholder="kuklachev@gmail.com" required>
