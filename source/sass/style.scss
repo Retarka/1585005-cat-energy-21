@@ -1,4 +1,4 @@
-// Начните писать стили здесь
+
 @import "fonts.scss";
 @import "global.scss";
 @import "variables.scss";
@@ -12,5 +12,7 @@
 @import "blocks/form__wrapper.scss";
 @import "blocks/form__send.scss";
 @import "blocks/visually-hidden.scss";
+@import "mixins.scss";
+
 
 
