@@ -3,6 +3,9 @@
 <head>
   <meta charset="utf-8">
   <title>Форма|Кэт энерджи</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preload" href="/fonts/oswaldregular.woff2" as="font">
+  <link rel="preload" href="/fonts/oswaldmedium.woff2" as="font">
 </head>
 <body class="page">
   <header class="page-header">
@@ -25,7 +28,7 @@
       </li>
     </ul>
   </div>
-</nav>
+ </nav>
 </header>
 <main class="page__main">
 
@@ -39,7 +42,8 @@
   <section class="page__main__wrapper  wrapper">
     <form class="page__main__form form" action="https://echo.htmlacademy.ru" method="post">
       <div class="form__wrapper form__wrapper--profile">
-        <fieldset class="form__profile-group">
+
+        <fieldset class="form__fieldset form__fieldset--profile">
           <div class="form__item">
            <label class="form__label" for="input-name">ИМЯ:*</label>
            <input class="form__input" id="input-name" name="name" type="text" placeholder="Барсик" required>
@@ -52,10 +56,14 @@
            <label class="form__label" for="input-age">Возраст (лет):</label>
            <input class="form__input" id="input-age" type="text" name="age" placeholder="7" required>
          </div>
+         <div class="form__item">
+           <label class="form__label" for="input-age">Возраст (лет):</label>
+           <input class="form__input" id="input-age" type="text" name="age" placeholder="7" required>
+         </div>
        </fieldset>
      </div>
      <div class="form__wrapper  form__wrapper--purpose">
-       <fieldset class="form__purpose-group">
+       <fieldset class="form__fieldset form__fieldset--purpose">
         <ul class="form__purpose-list">
           <li class="form__item-radio">
             <input class="form__input-radio" type="radio" name="purpose-group" value="Thin" id="filter-Thin" checked>
@@ -89,7 +97,8 @@
     <h3 class="form__comment-title">Комментарий</h3>
     <div class="form__group-comment">
       <div class="form__item">
-       <textarea class="form__user form__user--comment" name="comment" placeholder="Расскажите обо всех повАдках кота" required></textarea>
+         <label class="form__label form__label--comment visually-hidden" for="comment">Ввести комментарий</label>
+       <textarea class="form__user form__user--comment" name="comment"  id="comment" placeholder="Расскажите обо всех повадках кота" required></textarea>
      </div>
    </div>
  </div>
