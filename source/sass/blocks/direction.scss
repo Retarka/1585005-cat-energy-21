@@ -1,0 +1,22 @@
+
+.direction__item--slim,
+.direction__item--large{
+  background-color:#F2F2F2;
+}
+
+.direction__title{
+ font-size: 24px;
+ line-height: 37px;
+}
+
+.direction__description{
+  font-family: $font-second;
+  font-size: 14px;
+  line-height: 18px;
+  color: #444444;
+}
+
+.direction__link-description{
+  color: #000000;
+  text-transform: uppercase;
+}

@@ -3,6 +3,9 @@
 <head>
   <meta charset="utf-8">
   <title>Кэт энерджи</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preload" href="/fonts/oswaldregular.woff2" as="font">
+  <link rel="preload" href="/fonts/oswaldmedium.woff2" as="font">
 </head>
 <body class="page__body">
   <header class="page-header">
@@ -14,13 +17,13 @@
    <button class="main-nav__toggle" type="button" aria-label="Открыть меню"></button>
    <div class="main-nav__wrapper">
      <ul class="main-nav__list site-list">
-      <li  class="site-list__item site-list__item--current">
+      <li class="site-list__item site-list__item--current">
         <a>Главная</a>
       </li>
-      <li  class="site-list__item">
+      <li class="site-list__item">
         <a href="catalog.html">Каталог продукции</a>
       </li>
-      <li  class="site-list__item">
+      <li class="site-list__item">
         <a href="form.html">Подбор программы</a>
       </li>
     </ul>
@@ -32,7 +35,7 @@
     <div class="promo__wrapper">
       <p class="promo__title">Функциональное питание для котов</p>
       <p class="promo__description">Занялся собой? Займись котом!</p>
-      <button class="promo__button" type="button" aria-label="Подобрать питание"></button>
+      <button class="promo__button" type="button" aria-label="Подобрать питание">Подобрать программу</button>
     </div>
   </section>
   <section class="direction">
@@ -55,7 +58,7 @@
   </section>
   <section class="composition">
     <div class="composition__wrapper">
-      <h3>Как это работает</h3>
+      <h3 class="composition__title">Как это работает</h3>
       <ul class="composition__list">
         <li class="composition__item composition__item--benefit">
           <p class="composition__item-description">Функциональное питание
@@ -84,12 +87,12 @@
       <p class="total__description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.</p>
       <ul class="total__list">
         <li class="total__item">
-          <p class=" total__item total__item--weight">снижение веса</p>
           <p class=" total__item total__item--kg">5 КГ</p>
+          <p class="total__item total__item--weight">снижение веса</p>
         </li>
         <li  class="total__item">
-          <p class=" total__item total__item--time">затрачено времени</p>
-          <p class=" total__item total__item--days">60 ДНЕЙ</p>
+          <p class="total__item total__item--days">60 ДНЕЙ</p>
+          <p class="total__item total__item--time">затрачено времени</p>
         </li>
       </ul>
       <div class="total__cost">
