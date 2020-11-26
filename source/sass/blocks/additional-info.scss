@@ -1,0 +1,33 @@
+
+
+.additional-info__list{
+  list-style: none;
+}
+
+.additional-info__title{
+ font-size: 24px;
+ line-height: 24px;
+ color: #000000;
+}
+
+.additional-info__item-title{
+  font-size: 16px;
+  line-height: 16px;
+  color: #222222;
+  text-transform: uppercase;
+}
+
+.additional-info__description,
+.additional-info__price{
+  font-size: 14px;
+  line-height: 14px;
+  color: #444444;
+}
+
+
+.additional-info__button{
+  background-color: #68B738;
+  color: #FFFFFF;
+  padding: 7px 44px 7px 44px;
+  text-transform: uppercase;
+}
