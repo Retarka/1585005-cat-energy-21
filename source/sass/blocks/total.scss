@@ -2,6 +2,13 @@
   background-color:#EAEAEA;
 }
 
+.total__list{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+
+}
 .total__title{
  font-size: 36px;
  line-height: 40px;
@@ -17,7 +24,11 @@
 .total__item{
   font-size: 24px;
   line-height: 24px;
+
+  /*border: 1px solid #cdcdcd;
+  border-radius: 4px;*/
 }
+
 
 .total__item--weight,
 .total__item--time{
@@ -29,7 +40,36 @@
 }
 
 .total__cost-item{
+  text-align: center;
   font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
 }
+
+.total__toggle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (min-width: $tablet-width){
+  .total__info{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .total__item{
+    padding-right:30px;
+  }
+
+  .total__cost-item{
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+}
+
+
+
+
