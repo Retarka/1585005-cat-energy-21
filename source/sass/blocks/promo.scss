@@ -1,15 +1,18 @@
 .promo{
-  color: #FFFFFF;
   text-transform: uppercase;
   background: rgba(104, 183, 56, 0.85);
+  color: #FFFFFF;
+  padding:0px;
+  margin:0px;
+  padding-top:30px;
 }
 
 .promo__title{
+  font-size: 36px;
+  line-height: 36px;
   padding: 0px;
   margin: 0px;
   padding-bottom:25px;
-  font-size: 36px;
-  line-height: 36px;
 }
 
 .promo__description{
@@ -18,8 +21,36 @@
 }
 
 .promo__button{
+  text-transform: uppercase;
   background-color: #68B738;
   color: #FFFFFF;
+  margin: 0px;
+  margin-top:300px;
   padding: 7px 44px 7px 44px;
-  text-transform: uppercase;
+}
+
+.promo__button:hover{
+  background: #5EAA2F;
+}
+
+.promo__button:active{
+  opacity: 0.3;
+}
+
+@media (min-width:$tablet-width){
+  .promo{
+    background-color:#FFFFFF;
+  }
+  .promo__title,
+  .promo__description{
+    color: #000000;
+    background-color:#FFFFFF;
+  }
+
+  .promo__button{
+    margin-top:20px;
+  }
+
+
+
 }
