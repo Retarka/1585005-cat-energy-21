@@ -1,7 +1,8 @@
 
-
 .additional-info__list{
   list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 .additional-info__title{
@@ -30,4 +31,25 @@
   background-color: #68B738;
   color: #FFFFFF;
   padding: 7px 44px 7px 44px;
+}
+
+@media (min-width:$tablet-width){
+  .additional-info__button{
+
+     /*flex-grow: 1;*/
+     padding: 6px 220px 6px 220px;
+  }
+
+  .additional-info__item{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .additional-info__price{
+
+  }
+
+  .additional-info__item-title{
+    padding-right: 244px;
+  }
 }
