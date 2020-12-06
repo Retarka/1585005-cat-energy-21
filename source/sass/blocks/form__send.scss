@@ -12,3 +12,18 @@
  line-height: 16px;
  color: #000000;
 }
+
+
+@media (min-width:$desktop-width){
+  .form__send{
+    display: flex;
+    padding: 0px;
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+
+  .form__button{
+    margin: 0px;
+    margin-right: 80px;
+  }
+}
