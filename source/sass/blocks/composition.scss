@@ -1,10 +1,11 @@
+
 .composition__title{
  font-size: 36px;
  line-height: 40px;
 }
 
 .composition__item-description{
-  width: 323px;
+  width: 200px;
   font-family: $font-second;
   font-size: 14px;
   line-height: 18px;
@@ -14,7 +15,7 @@
 
 .composition__list{
   margin: 0px;
-  padding:0px;
+  padding: 0px;
   list-style: none;
 }
 
@@ -28,7 +29,6 @@
   .composition__list{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
   }
 
 }

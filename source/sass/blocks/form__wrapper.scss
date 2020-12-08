@@ -21,6 +21,16 @@
  color: #222222;
 }
 
+@media (min-width:$desktop-width){
+      .form__container{
+        display: flex;
+      }
+
+      .form__wrapper--profile{
+        padding-right: 80px;
+      }
+}
+
 
 /*OWNER*/
 
@@ -30,6 +40,15 @@
   color: #000000;
 }
 
+@media (min-width:$desktop-width){
+  .form__fieldset--owner{
+    display: flex;
+  }
+
+  .form__item--email{
+    padding-right: 80px;
+  }
+}
 
 /*COMMENT*/
 
@@ -64,3 +83,18 @@
 .form__list{
   list-style: none;
 }
+
+@media (min-width:$tablet-width){
+  .form__list{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .form__filter{
+    display: flex;
+    flex-direction: column;
+    width: 284px;
+    padding: 0px;
+  }
+}
+
