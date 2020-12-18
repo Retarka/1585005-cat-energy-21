@@ -5,13 +5,15 @@
 .total__list{
   list-style: none;
   display: flex;
-  justify-content: space-between;
   padding: 0px;
 
 }
 .total__title{
  font-size: 36px;
  line-height: 40px;
+ margin: 0px;
+ padding-top: 25px;
+ padding-bottom: 20px;
 }
 
 .total__description{
@@ -19,23 +21,44 @@
   font-size: 14px;
   line-height: 18px;
   color: #444444;
+  margin: 0px;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
 
 .total__item{
+  position:relative;
+  width: 124px;
+  height: 56px;
   font-size: 24px;
   line-height: 24px;
-
-  /*border: 1px solid #cdcdcd;
-  border-radius: 4px;*/
+  border: 1px solid #cdcdcd;
+  border-radius: 4px;
 }
 
+.total__value{
+  margin: 0px;
+  padding-top: 12px;
+  text-align: center;
+}
 
-.total__item--weight,
-.total__item--time{
+.total__feature{
   font-family: $font-second;
   font-size: 12px;
   line-height: 12px;
+  text-align: center;
   color: #444444;
+  top: 48px;
+  left: 22px;
+  position: absolute;
+  z-index: 1;
+  width: 59px;
+  height: 13px;
+  background: #EAEAEA;
+  margin: 0;
+  padding-right: 10px;
+  padding-left: 10px;
+
 
 }
 
@@ -44,32 +67,70 @@
   font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 45px;
 }
 
 .total__toggle{
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 50px;
+  padding-bottom: 35px;
 }
+
+.total__img{
+  background-color:#EAEAEA;
+}
+
 
 
 @media (min-width: $tablet-width){
   .total__info{
     display: flex;
     justify-content: space-between;
-
   }
   .total__item{
-    padding-right:30px;
+    margin: 0px;
+    margin-right:30px;
   }
 
   .total__cost-item{
+   /* width: 174px;*/
+    margin: 0px;
     font-size: 20px;
     line-height: 20px;
   }
 
+  .total__cost-item--span{
+   /* width: 90px;*/
+    margin: 0px;
+    text-align: right;
+  }
 }
 
 
+@media (min-width:$desktop-width){
+   .wrapper--total{
+    display: flex;
+    flex-wrap: wrap;
+   }
+  .total__cost{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 325px;
+  }
 
+
+  .total__info{
+   flex-direction: column;
+   width: 650px;
+   padding-top: 65px;
+   padding-bottom: 65px;
+  }
+
+   }
 

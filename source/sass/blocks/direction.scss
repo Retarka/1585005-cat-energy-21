@@ -7,12 +7,14 @@
 .direction__item{
   padding: 0px;
   margin:0px;
-
 }
 
 .direction__title{
  font-size: 24px;
  line-height: 37px;
+ padding-left: 92px;
+ padding-top: 30px;
+ text-transform: uppercase;
 }
 
 .direction__description{
@@ -20,31 +22,103 @@
   font-size: 14px;
   line-height: 18px;
   color: #444444;
+  margin: 0px;
+  padding-top: 5px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 33px;
+
 }
 
 .direction__link-description{
+  display: block;
   font-size: 16px;
   line-height: 16px;
   text-transform: uppercase;
   color: #000000;
+  padding-left: 19px;
+  padding-bottom: 22px;
+
+}
+
+.direction__img{
+  position:absolute;
+  top: 2px;
+  width: 32px;
+  height: 10px;
+  left: 124px;
+}
+
+.direction__link{
+ position: relative;
+ border-top: 1px solid #D9D9D9;
+ padding-top: 19px;
+ padding-bottom: 22px;
+ width: 240px;
+}
+
+.direction__item--slim{
+  background-image: url(../img/direction-img1.svg);
+  background-repeat: no-repeat;
+  background-position: 22px 20px;
+
+}
+
+.direction__item--large{
+  background-image: url(../img/direction-img2.svg);
+  background-repeat: no-repeat;
+  background-position: 15px 20px;
 }
 
 @media (min-width:$tablet-width){
   .direction__title{
-    display: flex;
     font-size: 36px;
     line-height: 36px;
+    padding-top: 75px;
+    padding-left: 70px;
   }
 
   .direction__description{
     font-size: 16px;
     line-height: 24px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 33px;
+    width: 377px;
+  }
+
+  .direction__link{
+   padding-top: 19px;
+   padding-bottom: 22px;
+   width: 240px;
   }
 
   .direction__link-description{
+    padding-left: 60px;
+    padding-bottom: 55px;
     font-size: 20px;
     line-height: 30px;
   }
+
+  .direction__item--slim{
+  background-image: url(../img/cat-back.svg);
+  background-repeat: no-repeat;
+  background-position: 450px 80px;
+
+}
+
+ .direction__item--large{
+  background-image: url(../img/cat-back2.svg);
+  background-repeat: no-repeat;
+  background-position: 420px 80px;
+}
+
+ .direction__img{
+  top: 10px;
+  left: 190px;
+  width: 32px;
+  height: 10px;
+ }
 
 }
 
@@ -56,6 +130,29 @@
  }
 
  .direction__item{
-  width: 568px;
+  width: 570px;
  }
+
+ .direction__title{
+    padding-top: 30px;
+    padding-left: 170px;
+  }
+
+  .direction__description{
+   padding-top:  50px;
+  }
+
+
+ .direction__item--slim{
+  background-image: url(../img/direction-desk-1.svg);
+  background-repeat: no-repeat;
+  background-position: 22px 20px;
+
+}
+
+.direction__item--large{
+  background-image: url(../img/direction-desk-1.svg);
+  background-repeat: no-repeat;
+  background-position: 15px 20px;
+}
 }
