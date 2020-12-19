@@ -1,7 +1,15 @@
 
+.composition{
+  margin-bottom:50px;
+}
+
+
 .composition__title{
  font-size: 36px;
  line-height: 40px;
+ margin: 0px;
+ margin-top: 25px;
+ margin-bottom: 40px;
 }
 
 .composition__item-description{
@@ -10,6 +18,9 @@
   font-size: 14px;
   line-height: 18px;
   color: #444444;
+  padding-left: 80px;
+  margin: 0px;
+  margin-bottom: 25px;
 
 }
 
@@ -19,11 +30,38 @@
   list-style: none;
 }
 
+.composition__item--benefit{
+ background-image: url(../img/composition-img1.svg);
+ background-repeat: no-repeat;
+ background-position: 0 0;
+}
 
+
+.composition__item--simply{
+ background-image: url(../img/composition-img2.svg);
+ background-repeat: no-repeat;
+ background-position: 0 0;
+}
+
+.composition__item--functionality{
+ background-image: url(../img/composition-img3.svg);
+ background-repeat: no-repeat;
+ background-position: 0 0;
+}
+
+.composition__item--result{
+ background-image: url(../img/composition-img4.svg);
+ background-repeat: no-repeat;
+ background-position: 0 0;
+}
 @media (min-width: $tablet-width){
   .composition__title{
+    font-style: normal;  /*ТАК БЫТЬ НЕ ДОЛЖНО!!*/
+    font-weight: normal;
     font-size: 60px;
     line-height: 60px;
+    margin-top: 60px;
+    margin-bottom: 70px;
   }
 
   .composition__list{
@@ -31,10 +69,54 @@
     flex-wrap: wrap;
   }
 
+  .composition__item{
+    width: 324px;
+    padding: 0px;
+    padding-bottom: 240px;
+    padding-right: 20px;
+  }
+
+  .composition__item:nth-child(3n),
+  .composition__item:nth-child(4n) {
+     padding-bottom: 240px;
+  }
+
+  .composition__item-description{
+
+  }
+
+  .composition__item--benefit{
+   background-image: url(../img/composition-1-tablet.png);
+   background-repeat: no-repeat;
+   background-position: 0 0;
+ }
+
+
+ .composition__item--simply{
+   background-image: url(../img/composition-2-tablet.png);
+   background-repeat: no-repeat;
+   background-position: 0 0;
+ }
+
+ .composition__item--functionality{
+   background-image: url(../img/composition-3-tablet.png);
+   background-repeat: no-repeat;
+   background-position: 0 0;
+ }
+
+ .composition__item--result{
+   background-image: url(../img/composition-4-tablet.png);
+   background-repeat: no-repeat;
+   background-position: 0 0;
+ }
+
 }
 
 @media (min-width:$desktop-width){
-   .composition__item-description{
-    width:245px;
-   }
+ .composition__item{
+  width:245px;
+  padding-right: 50px;
+}
+
+
 }
