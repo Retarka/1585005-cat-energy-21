@@ -1,33 +1,60 @@
+.more-good{
+  position: relative;
+}
+
+.more-good::before{
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 125px;
+  bottom: 20px;
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/plus.svg");
+  background-size: cover;
+}
+
 .more-good__title{
- font-size: 16px;
- line-height: 20px;
- text-transform: uppercase;
- color: #111111;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #111111;
+  margin: 0px;
+  padding-top: 78px;
+  padding-bottom: 8px;
 }
 
 .more-good__description{
+  margin: 0px;
+  text-align: center;
   font-size: 12px;
   line-height: 16px;
   color: #444444;
+  padding-bottom: 21px;
 }
 
 .more-good__button{
- background-color:#F2F2F2;
- color:#444444;
- /* padding: 20px 94px 20px 94px;*/
+  text-transform: uppercase;
+  background-color:#F2F2F2;
+  color:#444444;
+  width: 279px;
+  height: 40px;
+  margin-bottom: 100px;
+  padding: 10px 94px 10px 94px;
 
 }
 
 @media (min-width:$tablet-width){
-  .more-good--wrapper{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 323px;
-    padding: 0px;
+  .more-good{
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // width: 323px;
+    // padding: 0px;
 
   }
 }
 @media (min-width:$desktop-width){
-   width: 245px;
+  // width: 245px;
 }

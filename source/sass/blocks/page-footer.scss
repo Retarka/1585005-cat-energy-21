@@ -66,11 +66,11 @@
 }
 
 .social__logo{
- display: block;
- margin-left: auto;
- margin-right: auto;
- padding-top: 35px;
- padding-bottom: 28px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 35px;
+  padding-bottom: 28px;
 }
 
 .copyright__link{
@@ -97,10 +97,11 @@
   }
 
   .page-footer__contacts{
-   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #F2F2F2;
   }
 
   .social__list{
@@ -111,9 +112,9 @@
 
 @media (min-width:$desktop-width){
 
-.page-footer{
-  position:relative;
-}
+  .page-footer{
+    position:relative;
+  }
 
   .page-footer__contacts{
     position:absolute;
@@ -123,14 +124,15 @@
     padding-top: 40px;
     padding-bottom: 40px;
     justify-content: center;
+    background-color:  #FFFFFF;
 
     /*POSITION*/
   }
 
-.page-footer__title{
-  padding-right: 20px;
+  .page-footer__title{
+    padding-right: 20px;
 
-}
+  }
 
 
 

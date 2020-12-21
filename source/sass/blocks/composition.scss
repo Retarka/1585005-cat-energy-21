@@ -5,11 +5,11 @@
 
 
 .composition__title{
- font-size: 36px;
- line-height: 40px;
- margin: 0px;
- margin-top: 25px;
- margin-bottom: 40px;
+  font-size: 36px;
+  line-height: 40px;
+  margin: 0px;
+  margin-top: 25px;
+  margin-bottom: 40px;
 }
 
 .composition__item-description{
@@ -31,28 +31,28 @@
 }
 
 .composition__item--benefit{
- background-image: url(../img/composition-img1.svg);
- background-repeat: no-repeat;
- background-position: 0 0;
+  background-image: url(../img/composition-img1.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
 }
 
 
 .composition__item--simply{
- background-image: url(../img/composition-img2.svg);
- background-repeat: no-repeat;
- background-position: 0 0;
+  background-image: url(../img/composition-img2.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
 }
 
 .composition__item--functionality{
- background-image: url(../img/composition-img3.svg);
- background-repeat: no-repeat;
- background-position: 0 0;
+  background-image: url(../img/composition-img3.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
 }
 
 .composition__item--result{
- background-image: url(../img/composition-img4.svg);
- background-repeat: no-repeat;
- background-position: 0 0;
+  background-image: url(../img/composition-img4.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
 }
 @media (min-width: $tablet-width){
   .composition__title{
@@ -78,7 +78,7 @@
 
   .composition__item:nth-child(3n),
   .composition__item:nth-child(4n) {
-     padding-bottom: 240px;
+    padding-bottom: 240px;
   }
 
   .composition__item-description{
@@ -86,37 +86,37 @@
   }
 
   .composition__item--benefit{
-   background-image: url(../img/composition-1-tablet.png);
-   background-repeat: no-repeat;
-   background-position: 0 0;
- }
+    background-image: url(../img/composition-1-tablet.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
 
 
- .composition__item--simply{
-   background-image: url(../img/composition-2-tablet.png);
-   background-repeat: no-repeat;
-   background-position: 0 0;
- }
+  .composition__item--simply{
+    background-image: url(../img/composition-2-tablet.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
 
- .composition__item--functionality{
-   background-image: url(../img/composition-3-tablet.png);
-   background-repeat: no-repeat;
-   background-position: 0 0;
- }
+  .composition__item--functionality{
+    background-image: url(../img/composition-3-tablet.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
 
- .composition__item--result{
-   background-image: url(../img/composition-4-tablet.png);
-   background-repeat: no-repeat;
-   background-position: 0 0;
- }
+  .composition__item--result{
+    background-image: url(../img/composition-4-tablet.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
 
 }
 
 @media (min-width:$desktop-width){
- .composition__item{
-  width:245px;
-  padding-right: 50px;
-}
+  .composition__item{
+    width:245px;
+    padding-right: 50px;
+  }
 
 
 }
