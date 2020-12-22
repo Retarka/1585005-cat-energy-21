@@ -1,10 +1,10 @@
 
 .form__label,
 .form__input{
- font-size: 16px;
- line-height: 18px;
- text-transform: uppercase;
- color: #444444;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #444444;
 }
 
 
@@ -15,20 +15,20 @@
 }
 
 .form__label-radio{
- font-size: 16px;
- line-height: 18px;
- text-transform: uppercase;
- color: #222222;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #222222;
 }
 
 @media (min-width:$desktop-width){
-      .form__container{
-        display: flex;
-      }
+  .form__container{
+    display: flex;
+  }
 
-      .form__wrapper--profile{
-        padding-right: 80px;
-      }
+  .form__wrapper--profile{
+    padding-right: 80px;
+  }
 }
 
 
@@ -53,9 +53,9 @@
 /*COMMENT*/
 
 .form__comment-title{
- font-size: 24px;
- line-height: 26px;
- color: #000000;
+  font-size: 24px;
+  line-height: 26px;
+  color: #000000;
 }
 
 .form__user{
@@ -97,4 +97,3 @@
     padding: 0px;
   }
 }
-
