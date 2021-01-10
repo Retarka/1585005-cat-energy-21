@@ -8,3 +8,25 @@
   line-height: 18px;
   text-transform: uppercase;
 }
+
+@media (min-width:$tablet-width){
+  .intro{
+    margin-bottom: 66px;
+  }
+
+  .intro__title{
+    margin-bottom: 164px;
+  }
+
+  .intro__title--form{
+    margin-bottom: 54px;
+  }
+
+  .intro__description--form{
+    width: 323px;
+    margin-bottom: 66px;
+  }
+
+
+
+}
