@@ -9,6 +9,10 @@
   border-bottom: 1px solid #CDCDCD;
 }
 
+.additional-info__item--border{
+  border-top: 1px solid #CDCDCD;
+}
+
 .additional-info__container {
   padding-bottom: 25px;
   display: flex;
@@ -16,13 +20,26 @@
 }
 
 .additional-info__title {
+  position: relative;
+  display: inline-flex;
   margin: 0px;
   padding-top: 25px;
   padding-bottom: 36px;
   font-size: 24px;
   line-height: 24px;
   color: #000000;
-  border-bottom: 1px solid #CDCDCD;
+}
+
+
+.additional-info__title::after{
+  content: "";
+  position: absolute;
+  top: 38px;
+  left: calc(100% + 17px);
+  width: 12vw;
+  height: 3px;
+  background-color: #68b738;
+
 }
 
 .additional-info__item-title {
@@ -50,8 +67,39 @@
 }
 
 @media (min-width:$tablet-width) {
+  .additional-info__list{
+    border: 1px solid #CDCDCD;
+    box-sizing: border-box;
+  }
+
   .additional-info__container {
     padding-top: 15px;
+    padding-right: 38px;
+  }
+
+  .additional-info__title{
+    padding-left: 35px;
+  }
+
+  .additional-info__title::after{
+    top: 38px;
+    left: calc(100% + 17px);
+    width: 56vw;
+  }
+
+  .additional-info__title::before{
+    content: "";
+    position: absolute;
+    top: 38px;
+    right: calc(100% + 5px);
+    width: 100vw;
+    height: 3px;
+    background-color: #68b738;
+
+  }
+
+  .additional-info__item-title{
+    padding-left: 38px;
   }
 
   .additional-info__button {
@@ -59,6 +107,8 @@
     width: 400px;
     height: 26px;
     padding: 6px 220px 6px 220px;
+    margin-left: 38px;
+    margin-right: 38px;
   }
 
   .additional-info__description {
@@ -70,17 +120,46 @@
     flex-wrap: wrap;
     justify-content: space-between;
   }
+
+
+
+
 }
 
 @media (min-width:$desktop-width) {
   .additional-info__list {
+    border: none;
     width: 895px;
+  }
+  .additional-info__item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 0px;
+  }
+
+  .additional-info__title{
+    padding-left: 0px;
+  }
+
+  .additional-info__item-title{
+    padding-left: 0px;
+  }
+  .additional-info__title::after{
+    top: 38px;
+    left: calc(100% + 17px);
+    width: 73vw;
+  }
+
+  .additional-info__price{
+    padding-right: 20px;
   }
 
   .additional-info__button {
+    margin: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     padding: 7px 26px 7px 26px;
     width: 244px;
-    height: 40px;
   }
 
   .additional-info__block {

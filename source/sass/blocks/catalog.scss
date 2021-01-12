@@ -32,13 +32,13 @@
   .catalog__item {
     display: flex;
     flex-direction: column;
-    // width: 323px;
+    width: 324px;
     padding: 0px;
   }
 }
 
 @media (min-width:$desktop-width) {
-  // .catalog__item {
-  //     width: 244px;
-  // }
+  .catalog__item {
+    width: 245px;
+  }
 }
