@@ -18,18 +18,49 @@
 }
 
 .form__label{
+  margin-right: 13px;
+  flex-shrink: 0;
   padding: 0px;
+  padding-top: 30px;
 }
 
 .form__input{
-  padding-top: 13px;
+  font-family: Oswald;
+  font-size: 16px;
+  line-height: 18px;
+  width: 100%;
+  padding-top: 15px;
   padding-left: 15px;
   padding-bottom: 14px;
-  margin-bottom: 14px;
+  margin-top: 15px;
+  border: 1px solid #E7E7E7;
+  box-sizing: border-box;
 }
 
+.form__input:hover{
+  border: 1px solid #CDCDCD;
+}
 
+.form__input:focus{
+  border: 2px solid #444444;
+}
 
+.form__input:invalid:not(:placeholder-shown) {
+  border: 2px solid #FF8282;
+}
+
+::-webkit-input-placeholder {
+  color: #444444;
+}
+::-moz-placeholder {
+  color:  #444444;
+}
+:-ms-input-placeholder {
+  color: #444444;
+}
+:-moz-placeholder {
+  color: #444444;
+}
 
 .form__list{
   padding: 0px;
@@ -39,19 +70,26 @@
 
 
 // PROFILE
-
+.form__fieldset--profile{
+  margin-bottom: 14px;
+}
 
 /*PURPOSE*/
 .form__list-purpose{
   list-style: none;
   padding: 0px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 28px;
+  margin-bottom: 0px;
+}
+
+.form__fieldset--purpose{
+  border-top: 1px solid #D9D9D9;
+  border-bottom:  1px solid #D9D9D9;
 }
 
 
 .form__item-radio{
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .form__label-radio{
@@ -59,7 +97,7 @@
   line-height: 18px;
   text-transform: uppercase;
   color: #222222;
-  padding-left: 65px;
+  padding-left: 44px;
 }
 
 .form__item-radio label{
@@ -73,10 +111,10 @@
 .form__input-radio+label::before {
   content: "";
   position: absolute;
-  left: 20px;
+  left: -3px;
   top: -8px;
-  width: 30px;
-  height: 30px;
+  width: 28px;
+  height: 28px;
   border: 1px solid #CDCDCD;
   border-radius: 50%;
 }
@@ -84,7 +122,8 @@
 .form__input-radio:checked + label::after {
   content: "";
   position: absolute;
-  left: 30px;
+  left: 6px;
+  top: 1px;
   width: 13px;
   height: 14px;
   background-color:  #68B738;
@@ -96,8 +135,11 @@
 /*OWNER*/
 
 .form__owner-title{
+  font-style: normal;
+  font-weight: normal;
   position: relative;
   width: 187px;
+  margin-bottom: 20px;
   font-size: 24px;
   line-height: 26px;
   color: #000000;
@@ -106,21 +148,24 @@
 .form__owner-title::after{
   content: "";
   position: absolute;
-  top: 38px;
-  left: calc(100% + 12px);
+  top: 16px;
+  left: calc(100% + 13px);
   width: 30vw;
-  height: 3px;
+  height: 2px;
   background-color: #68b738;
 }
 
 /*COMMENT*/
 
 .form__comment-title{
+  font-style: normal;
+  font-weight: normal;
   position: relative;
   width: 121px;
   font-size: 24px;
   line-height: 26px;
   color: #000000;
+  margin-top: 15px;
 }
 
 .form__comment-title::after{
@@ -129,7 +174,7 @@
   top: 15px;
   left: calc(100% + 17px);
   width: 48vw;
-  height: 3px;
+  height: 2px;
   background-color: #68b738;
 }
 
@@ -143,10 +188,15 @@
 }
 
 
+
+
 /*WITHAL*/
 .form__withal-title{
+  font-style: normal;
+  font-weight: normal;
   position: relative;
   width: 141px;
+  margin-top: 30px;
   font-size: 24px;
   line-height: 26px;
   color: #000000;
@@ -163,21 +213,23 @@
   top: 15px;
   left: calc(100% + 17px);
   width: 42vw;
-  height: 3px;
+  height: 2px;
   background-color: #68b738;
 }
-
 
 .filter-checkbox__label{
   font-size: 16px;
   line-height: 18px;
   text-transform: uppercase;
+  text-align: center;
+  padding-left: 10px;
   color: #000000;
 }
 .filter-checkbox{
   position: relative;
-  margin-bottom: 23px;
+  margin-bottom: 26px;
   padding-left: 35px;
+  text-align: left;
 }
 
 .filter-checkbox__input + label::before {
