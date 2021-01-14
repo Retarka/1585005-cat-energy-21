@@ -1,6 +1,9 @@
 .intro__title{
+  font-style: normal;
+  font-weight: normal;
   font-size: 36px;
   line-height: 36px;
+  margin-bottom: 41px;
 }
 
 .intro__description{
@@ -8,6 +11,16 @@
   line-height: 18px;
   text-transform: uppercase;
 }
+
+ .intro__title--form{
+  margin-bottom: 35px;
+ }
+
+ .intro__description--form{
+   width: 226px;
+   margin-bottom: 20px;
+ }
+
 
 @media (min-width:$tablet-width){
   .intro{
