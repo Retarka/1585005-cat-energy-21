@@ -12,7 +12,7 @@
 
 <body class="page__body">
   <header class="page-header">
-    <div class="wrapper page-header--wrapper">
+    <div class="wrapper wrapper--page-header">
       <div class="page-header__container">
         <a class="page-header__logo">
           <picture>
@@ -26,14 +26,14 @@
               <button class="main-nav__toggle" type="button" aria-label="Открыть меню"></button>
               <div class="wrapper wrapper--main-nav">
                 <ul class="main-nav__list">
-                  <li class="site-list__item site-list__item--current">
-                    <a>Главная</a>
+                  <li class="main-nav__item main-nav__item--current">
+                    <a class="main-nav__link">Главная</a>
                   </li>
-                  <li class="site-list__item">
-                    <a  href="catalog.html">Каталог продукции</a>
+                  <li class="main-nav__item">
+                    <a class="main-nav__link" href="catalog.html">Каталог продукции</a>
                   </li>
-                  <li class="site-list__item">
-                    <a href="form.html">Подбор программы</a>
+                  <li class="main-nav__item">
+                    <a class="main-nav__link" href="form.html">Подбор программы</a>
                   </li>
                 </ul>
               </div>
@@ -50,13 +50,13 @@
           <div class="promo__img">
             <div class="wrapper wrapper--img">
               <picture>
-                <source media="(min-width: 1440px)" srcset="img/promo-desktop-1x.webp, img/promo-desktop-2x.webp" type="image/webp" >
-                  <source media="(min-width: 768px)" srcset="img/promo-tablet-1x.webp, img/promo-tablet-2x.webp" type="image/webp">
-                    <source srcset="img/promo-mobile-1x.webp", src="img/promo-mobile-2x.webp" type="image/webp">
+                <source media="(min-width: 1440px)" srcset="img/promo-desktop-1x.webp 1x, img/promo-desktop-2x.webp 2x" type="image/webp" >
+                  <source media="(min-width: 768px)" srcset="img/promo-tablet-1x.webp 1x, img/promo-tablet-2x.webp 2x" type="image/webp">
+                    <source srcset="img/promo-mobile-1x.webp 1x, img/promo-mobile-2x.webp 2x" type="image/webp">
 
-                      <source media="(min-width: 1440px)" srcset="img/promo-desktop-1x.png", src="img/promo-desktop-2x.png">
-                        <source media="(min-width: 768px)" srcset="img/promo-tablet-1x.png", src="img/promo-tablet-2x.png">
-                          <img class="promo__image" src="img/promo-mobile-1x.png", src="img/promo-mobile-2x.png" width="280" height="270" alt="Иллюстрация продукта">
+                      <source  media="(min-width: 1440px)" srcset="img/promo-desktop-1x.png 1x, img/promo-desktop-2x.png 2x">
+                        <source  media="(min-width: 768px)" srcset="img/promo-tablet-1x.png 1x, img/promo-tablet-2x.png 2x">
+                          <img class="promo__image" src="img/promo-mobile-1x.png 1x" srcset="img/promo-mobile-2x.png 2x" width="280" height="270" alt="Иллюстрация продукта">
                         </picture>
                         <button class="promo__button" type="button" aria-label="Подобрать питание">Подобрать программу</button>
                       </div>
@@ -78,7 +78,7 @@
                         </div>
                         <div class="direction__item direction__item--large">
                           <h3 class="direction__title">Набор массы</h3>
-                          <p class="direction__description">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro
+                          <p class="direction__description direction__description--large">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro
                             поможет вашему коту нарастить необходимые мышцы!</p>
                             <a class="direction__link" href="catalog.html">
                               <svg class="direction__img" width="32" height="12" viewBox="0 0 32 12" fill="none">
@@ -95,34 +95,36 @@
                           <h3 class="composition__title">Как это работает</h3>
                           <ul class="composition__list">
                             <li class="composition__item composition__item--benefit  composition__item--1">
-                              <p class="composition__item-description">Функциональное питание<br>
+                              <p class="composition__item-description composition__item-description--benefit">Функциональное питание<br>
                                 содержит только полезные<br>
                                 питательные вещества.</p>
                               </li>
                               <li class="composition__item composition__item--simply  composition__item--2">
-                                <p class="composition__item-description">Выпускается в виде порошка,<br>
+                                <p class="composition__item-description composition__item-description--simply">Выпускается в виде порошка,<br>
                                   который нужно лишь залить<br>
                                   кипятком и готово.</p>
                                 </li>
                                 <li class="composition__item composition__item--functionality  composition__item--3">
-                                  <p class="composition__item-description">Замените один-два приема<br>
+                                  <p class="composition__item-description composition__item-description--functionality">Замените один-два приема<br>
                                     обычной еды на наше<br>
                                     функциональное питание.</p>
                                   </li>
                                   <li class="composition__item composition__item--result  composition__item--4">
-                                    <p class="composition__item-description">Уже через месяц<br> наслаждайтесь изменениями<br> к лучшему вашего
+                                    <p class="composition__item-description composition__item-description--result">Уже через месяц<br> наслаждайтесь изменениями<br> к лучшему вашего
                                       питомца!</p>
                                     </li>
                                   </ul>
                                 </div>
                               </section>
                               <section class="total">
-                                <div class="wrapper wrapper--total">
+                                <div class="wrapper">
                                   <h3 class="total__title">Живой пример</h3>
-                                  <p class="total__description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy
-                                    Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по
-                                    16 часов в день.</p>
-                                    <div class="total__info">
+                                </div>
+                                <div class="wrapper wrapper--total">
+                                  <section class="total__info">
+                                    <p class="total__description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy
+                                      Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по
+                                      16 часов в день.</p>
                                       <ul class="total__list">
                                         <li class="total__item total__item--left">
                                           <p class="total__value">5 КГ</p>
@@ -136,73 +138,82 @@
                                       <div class="total__cost">
                                         <p class="total__cost-item">Затраты на питание: <span class="total__cost-item total__cost-item--span">15 000
                                           РУБ.</span></p>
-                                          <img class="total__img" src="img/cat-slider.png" height="232" width="311" alt="Изображение кота">
                                         </div>
-                                      </div>
-                                    </div>
-                                    <div class="total__toggle">
-                                      <button class="total__toggle-button" type="button" aria-label="До похудения">
-                                        <span>Было</span>
-                                      </button>
-                                      <button class="total__toggle-button" type="button" aria-label="После похудения">
-                                        <span>Стало</span>
-                                      </button>
-                                    </div>
-                                  </section>
-                                  <footer class="page-footer">
-                                    <div class="page-footer__contacts contacts">
-                                      <h3 class="page-footer__title">приглашаем<br>
-                                        к сотрудничеству дилеров!</h3>
-                                        <p class="contacts__text">
-                                          ул. Большая
-                                          Конюшенная, д. 19/8
-                                          Санкт-Петербург
-                                        </p>
-                                      </div>
-                                      <div>
-                                        <!--  <img src="img/map-mobile.jpg" width="320" height="362"> -->
-                                      </div>
-                                      <div class="page-footer__map">
-                                        <iframe class="page-footer__iframe"
-                                        src="https://yandex.ru/map-widget/v1/?um=constructor%3A05fe0e9bc71899f017cea9d43fe8321f78ea1863502870477d6123134b9cd627&amp;source=constructor"
-                                        width="100%" height="400" frameborder="0"></iframe>
-                                      </div>
-                                      <div class="wrapper wrapper--page-footer">
-                                        <div class="page-footer__wrapper">
-                                          <img class="social__logo" src="img/footer-logo.svg" width="128" height="24" alt="Лого сайта">
-                                          <div class="page-footer__social social">
-                                            <ul class="social__list">
-                                              <li class="social__item">
-                                                <a class="social__link social__link--vk" href="#!"><svg width="23" height="16" fill="none">
-                                                  <path
-                                                  d="M.07 3.993c0-.622.423-.957 1.27-1.006l3.26.018c.22 0 .365.09.438.274.336.914.71 1.704 1.127 2.368s.96 1.43 1.63 2.295c.058.1.153.165.285.165.102 0 .182-.043.24-.128l.066-.2.022-3.164c0-.22-.062-.366-.186-.44s-.354-.128-.69-.165c-.263-.037-.394-.17-.394-.402 0-.05.007-.085.022-.1.306-.793 1.182-1.19 2.626-1.19l1.226-.018c.554 0 1.014.116 1.38.348s.547.597.547 1.097v4.152c.102.06.197.09.284.09.22 0 .41-.1.57-.33 1.605-1.878 2.473-3.134 2.604-3.768 0-.012.015-.043.044-.09a1.29 1.29 0 0 1 .503-.476c.233-.134.438-.226.613-.274.058-.024.124-.037.197-.037h3.392l.22.018c.292 0 .518.116.678.348a.63.63 0 0 1 .12.238c.022.085.037.17.044.256l.01.146v.128c-.102.5-.36 1.033-.777 1.6s-.945 1.18-1.587 1.838l-1.204 1.3c-.13.146-.197.28-.197.402 0 .098.058.207.175.33l3.195 3.365c.175.195.263.408.263.64 0 .28-.13.512-.394.695s-.576.287-.94.31l-.372.018h-3.327c-.015 0-.044.003-.088.01l-.087.01c-.32 0-.62-.116-.897-.348l-2.057-2.158c-.073-.085-.175-.165-.306-.238l-.23.84-.208.786-.066.31c-.146.427-.452.683-.92.768l-.306.018H9.743c-1.21 0-2.418-.463-3.622-1.4s-2.287-2.125-3.25-3.594S1.01 6.474.18 4.523c-.073-.16-.11-.335-.11-.53zM13.223 8.73a1.66 1.66 0 0 1-.832-.21c-.248-.14-.372-.332-.372-.576V3.737c0-.244-.073-.418-.22-.52s-.4-.155-.766-.155l-1.247.037c-.627 0-1.102.09-1.423.274.642.256.963.67.963 1.244v3.22c-.03.305-.175.558-.438.76s-.554.302-.875.302c-.438 0-.773-.177-1.007-.53C5.87 6.925 5.024 5.56 4.47 4.267l-.197-.476-2.91-.018c-.2 0-.295.01-.317.027s-.033.07-.033.155c0 .1.015.226.044.348l.46 1.024C2.74 7.974 4.07 10.06 5.51 11.583s2.85 2.286 4.235 2.286h2.19c.088 0 .153-.02.197-.064s.08-.125.11-.247l.044-.183.416-1.61c.117-.22.22-.366.306-.44a.86.86 0 0 1 .569-.201c.35 0 .708.177 1.072.53l1.86 1.975c.117.16.24.238.372.238h3.61c.438 0 .657-.09.657-.274 0-.06-.022-.122-.066-.183l-3.173-3.3c-.248-.256-.372-.53-.372-.823s.117-.573.35-.84c.2-.244.558-.65 1.105-1.216l1.433-1.59c.41-.494.678-.942.8-1.344l.066-.238c-.014-.024-.022-.064-.022-.12s-.007-.1-.022-.137H17.82c-.22.073-.394.183-.525.33l-.13.348c-.365.84-1.32 2.14-2.867 3.896a1.67 1.67 0 0 1-1.072.366z"
-                                                  fill="#666" /></svg></a>
-                                                </li>
-                                                <li class="social__item">
-                                                  <a class="social__link social__link--insta" href="#!"><svg width="16" height="16" fill="none"
-                                                    xmlns:v="https://vecta.io/nano">
-                                                    <path
-                                                    d="M7.984.063L11.25.11c.72.03 1.36.156 1.922.375.542.208 1 .5 1.406.906s.698.865.906 1.406c.22.563.344 1.203.375 1.922l.047 3.266-.047 3.266c-.03.72-.156 1.36-.375 1.922-.208.542-.5 1-.906 1.406s-.865.698-1.406.906c-.562.22-1.203.344-1.922.375l-3.266.047a91.88 91.88 0 0 1-3.266-.047c-.72-.03-1.36-.156-1.922-.375-.542-.208-1-.5-1.406-.906s-.698-.865-.906-1.406C.266 12.61.14 11.97.11 11.25L.063 7.984.11 4.72C.14 4 .266 3.36.484 2.797c.208-.542.5-1 .906-1.406S2.255.693 2.797.484C3.36.266 4 .14 4.72.11L7.984.063zm0 1.03l-3.39.047c-.562.02-1.083.12-1.562.297a2.85 2.85 0 0 0-1.594 1.594c-.177.48-.276 1-.297 1.563l-.047 3.39.047 3.39c.02.563.12 1.083.297 1.563a2.85 2.85 0 0 0 1.594 1.594c.48.177 1 .276 1.563.297l3.39.047 3.39-.047c.563-.02 1.083-.12 1.563-.297a2.85 2.85 0 0 0 1.594-1.594c.177-.48.276-1 .297-1.562l.047-3.39-.047-3.39c-.02-.562-.12-1.083-.297-1.562a2.85 2.85 0 0 0-1.594-1.594c-.48-.177-1-.276-1.562-.297l-3.39-.047zm0 10.062c.875 0 1.622-.3 2.242-.93s.93-1.367.93-2.242-.3-1.622-.93-2.242-1.367-.93-2.242-.93-1.622.3-2.242.93-.93 1.367-.93 2.242.3 1.622.93 2.242 1.367.93 2.242.93zm0-7.234c1.125 0 2.083.396 2.875 1.188s1.188 1.75 1.188 2.875-.396 2.083-1.187 2.875-1.75 1.188-2.875 1.188S5.9 11.65 5.11 10.86 3.922 9.11 3.922 7.984 4.318 5.9 5.11 5.11s1.75-1.187 2.875-1.187zm5.188-.156a.89.89 0 0 1-.281.664.95.95 0 0 1-.687.273c-.26 0-.482-.09-.664-.273s-.274-.404-.274-.664a.95.95 0 0 1 .274-.687.89.89 0 0 1 .664-.281.93.93 0 0 1 .68.289.93.93 0 0 1 .289.68z"
-                                                    fill="#666" /></svg></a>
-                                                  </li>
-                                                  <li class="social__item">
-                                                    <a class="social__link social__link--fs" href="#!"><svg width="22" height="22" fill="none">
-                                                      <path
-                                                      d="M16.5 1.833h-2.75a4.63 4.63 0 0 0-3.241 1.316 4.45 4.45 0 0 0-1.342 3.178v2.697h-2.75v3.595h2.75v7.19h3.667v-7.19h2.75l.917-3.595h-3.667V6.327a.89.89 0 0 1 .269-.636c.172-.17.405-.263.648-.263h2.75V1.833z"
-                                                      stroke="#666" stroke-width="1.1" stroke-linejoin="round" /></svg></a>
-                                                    </li>
-                                                  </ul>
-                                                </div>
-                                                <div class="page-footer__copyright copyright">
-                                                  <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
-                                                  <a class="copyright__link-logo" href="https://htmlacademy.ru/intensive/adaptive">
-                                                    <img class="copyright__logo" src="img/htmlacademy.svg" width="27" height="34" alt="Логотип HTML Academy">
-                                                  </a>
-                                                </div>
+                                      </section>
+                                      <section class="total__toggle">
+                                        <div class="total__img-container">
+                                          <picture>
+                                            <source  media="(min-width: 1440px)" srcset="img/cat-slider-desktop.png">
+                                              <source  media="(min-width: 768px)" srcset="img/image-cat-tablet.png">
+                                                <img class="total__img" src="img/cat-slider-mobile.png" alt="Изображение кота">
+                                              </picture>
+                                            </div>
+                                            <div class="total__button-container">
+                                              <div>
+                                                <button class="total__toggle-button total__toggle-button--right" type="button" aria-label="До похудения">Было</button>
+                                              </div>
+                                              <div class="total__slider">
+
+                                              </div>
+                                              <div>
+                                                <button class="total__toggle-button total__toggle-button--left" type="button" aria-label="После похудения">Стало</button>
                                               </div>
                                             </div>
-                                          </footer>
-                                        </main>
-                                      </body>
+                                          </section>
+                                        </div>
+                                      </section>
+                                      <footer class="page-footer">
+                                        <div class="page-footer__contacts contacts">
+                                          <h3 class="page-footer__title">приглашаем<br>
+                                            к сотрудничеству дилеров!</h3>
+                                            <p class="page-footer__text">
+                                              ул. Большая
+                                              Конюшенная, д. 19/8
+                                              Санкт-Петербург
+                                            </p>
+                                          </div>
+                                          <div>
+                                            <!--  <img src="img/map-mobile.jpg" width="320" height="362"> -->
+                                          </div>
+                                          <div class="page-footer__map">
+                                            <iframe class="page-footer__iframe"
+                                            src="https://yandex.ru/map-widget/v1/?um=constructor%3A05fe0e9bc71899f017cea9d43fe8321f78ea1863502870477d6123134b9cd627&amp;source=constructor"></iframe>
+                                          </div>
+                                          <div class="wrapper wrapper--page-footer">
+                                            <div class="page-footer__wrapper">
+                                              <img class="page-footer__logo" src="img/icons/footer-logo.svg" width="128" height="24" alt="Лого сайта">
+                                              <div class="page-footer__social social">
+                                                <ul class="social__list">
+                                                  <li class="social__item">
+                                                    <a class="social__link social__link--vk" href="#!"><svg width="23" height="16" fill="none">
+                                                      <path
+                                                      d="M.07 3.993c0-.622.423-.957 1.27-1.006l3.26.018c.22 0 .365.09.438.274.336.914.71 1.704 1.127 2.368s.96 1.43 1.63 2.295c.058.1.153.165.285.165.102 0 .182-.043.24-.128l.066-.2.022-3.164c0-.22-.062-.366-.186-.44s-.354-.128-.69-.165c-.263-.037-.394-.17-.394-.402 0-.05.007-.085.022-.1.306-.793 1.182-1.19 2.626-1.19l1.226-.018c.554 0 1.014.116 1.38.348s.547.597.547 1.097v4.152c.102.06.197.09.284.09.22 0 .41-.1.57-.33 1.605-1.878 2.473-3.134 2.604-3.768 0-.012.015-.043.044-.09a1.29 1.29 0 0 1 .503-.476c.233-.134.438-.226.613-.274.058-.024.124-.037.197-.037h3.392l.22.018c.292 0 .518.116.678.348a.63.63 0 0 1 .12.238c.022.085.037.17.044.256l.01.146v.128c-.102.5-.36 1.033-.777 1.6s-.945 1.18-1.587 1.838l-1.204 1.3c-.13.146-.197.28-.197.402 0 .098.058.207.175.33l3.195 3.365c.175.195.263.408.263.64 0 .28-.13.512-.394.695s-.576.287-.94.31l-.372.018h-3.327c-.015 0-.044.003-.088.01l-.087.01c-.32 0-.62-.116-.897-.348l-2.057-2.158c-.073-.085-.175-.165-.306-.238l-.23.84-.208.786-.066.31c-.146.427-.452.683-.92.768l-.306.018H9.743c-1.21 0-2.418-.463-3.622-1.4s-2.287-2.125-3.25-3.594S1.01 6.474.18 4.523c-.073-.16-.11-.335-.11-.53zM13.223 8.73a1.66 1.66 0 0 1-.832-.21c-.248-.14-.372-.332-.372-.576V3.737c0-.244-.073-.418-.22-.52s-.4-.155-.766-.155l-1.247.037c-.627 0-1.102.09-1.423.274.642.256.963.67.963 1.244v3.22c-.03.305-.175.558-.438.76s-.554.302-.875.302c-.438 0-.773-.177-1.007-.53C5.87 6.925 5.024 5.56 4.47 4.267l-.197-.476-2.91-.018c-.2 0-.295.01-.317.027s-.033.07-.033.155c0 .1.015.226.044.348l.46 1.024C2.74 7.974 4.07 10.06 5.51 11.583s2.85 2.286 4.235 2.286h2.19c.088 0 .153-.02.197-.064s.08-.125.11-.247l.044-.183.416-1.61c.117-.22.22-.366.306-.44a.86.86 0 0 1 .569-.201c.35 0 .708.177 1.072.53l1.86 1.975c.117.16.24.238.372.238h3.61c.438 0 .657-.09.657-.274 0-.06-.022-.122-.066-.183l-3.173-3.3c-.248-.256-.372-.53-.372-.823s.117-.573.35-.84c.2-.244.558-.65 1.105-1.216l1.433-1.59c.41-.494.678-.942.8-1.344l.066-.238c-.014-.024-.022-.064-.022-.12s-.007-.1-.022-.137H17.82c-.22.073-.394.183-.525.33l-.13.348c-.365.84-1.32 2.14-2.867 3.896a1.67 1.67 0 0 1-1.072.366z"
+                                                      fill="#666" /></svg></a>
+                                                    </li>
+                                                    <li class="social__item">
+                                                      <a class="social__link social__link--insta" href="#!"><svg width="16" height="16" fill="none">
+                                                        <path
+                                                        d="M7.984.063L11.25.11c.72.03 1.36.156 1.922.375.542.208 1 .5 1.406.906s.698.865.906 1.406c.22.563.344 1.203.375 1.922l.047 3.266-.047 3.266c-.03.72-.156 1.36-.375 1.922-.208.542-.5 1-.906 1.406s-.865.698-1.406.906c-.562.22-1.203.344-1.922.375l-3.266.047a91.88 91.88 0 0 1-3.266-.047c-.72-.03-1.36-.156-1.922-.375-.542-.208-1-.5-1.406-.906s-.698-.865-.906-1.406C.266 12.61.14 11.97.11 11.25L.063 7.984.11 4.72C.14 4 .266 3.36.484 2.797c.208-.542.5-1 .906-1.406S2.255.693 2.797.484C3.36.266 4 .14 4.72.11L7.984.063zm0 1.03l-3.39.047c-.562.02-1.083.12-1.562.297a2.85 2.85 0 0 0-1.594 1.594c-.177.48-.276 1-.297 1.563l-.047 3.39.047 3.39c.02.563.12 1.083.297 1.563a2.85 2.85 0 0 0 1.594 1.594c.48.177 1 .276 1.563.297l3.39.047 3.39-.047c.563-.02 1.083-.12 1.563-.297a2.85 2.85 0 0 0 1.594-1.594c.177-.48.276-1 .297-1.562l.047-3.39-.047-3.39c-.02-.562-.12-1.083-.297-1.562a2.85 2.85 0 0 0-1.594-1.594c-.48-.177-1-.276-1.562-.297l-3.39-.047zm0 10.062c.875 0 1.622-.3 2.242-.93s.93-1.367.93-2.242-.3-1.622-.93-2.242-1.367-.93-2.242-.93-1.622.3-2.242.93-.93 1.367-.93 2.242.3 1.622.93 2.242 1.367.93 2.242.93zm0-7.234c1.125 0 2.083.396 2.875 1.188s1.188 1.75 1.188 2.875-.396 2.083-1.187 2.875-1.75 1.188-2.875 1.188S5.9 11.65 5.11 10.86 3.922 9.11 3.922 7.984 4.318 5.9 5.11 5.11s1.75-1.187 2.875-1.187zm5.188-.156a.89.89 0 0 1-.281.664.95.95 0 0 1-.687.273c-.26 0-.482-.09-.664-.273s-.274-.404-.274-.664a.95.95 0 0 1 .274-.687.89.89 0 0 1 .664-.281.93.93 0 0 1 .68.289.93.93 0 0 1 .289.68z"
+                                                        fill="#666" /></svg></a>
+                                                      </li>
+                                                      <li class="social__item">
+                                                        <a class="social__link social__link--fs" href="#!"><svg width="22" height="22" fill="none">
+                                                          <path
+                                                          d="M16.5 1.833h-2.75a4.63 4.63 0 0 0-3.241 1.316 4.45 4.45 0 0 0-1.342 3.178v2.697h-2.75v3.595h2.75v7.19h3.667v-7.19h2.75l.917-3.595h-3.667V6.327a.89.89 0 0 1 .269-.636c.172-.17.405-.263.648-.263h2.75V1.833z"
+                                                          stroke="#666" stroke-width="1.1" stroke-linejoin="round" /></svg></a>
+                                                        </li>
+                                                      </ul>
+                                                    </div>
+                                                    <div class="page-footer__copyright copyright">
+                                                      <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+                                                      <a class="copyright__link-logo" href="https://htmlacademy.ru/intensive/adaptive">
+                                                        <img class="copyright__logo" src="img/htmlacademy.svg" width="27" height="34" alt="Логотип HTML Academy">
+                                                      </a>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </footer>
+                                            </main>
+                                          </body>
 
-                                      </html>
+                                          </html>

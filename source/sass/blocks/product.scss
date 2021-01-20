@@ -13,13 +13,13 @@
   flex-wrap: wrap;
   justify-content: center;
   width: 138px;
+  height: 112px;
 }
 
 .product__img-catalog{
   padding-top: 30px;
-  width: 68px;
-  height: 86px;
 }
+
 .product__wrapper{
   display: flex;
   flex-wrap: wrap;
@@ -38,7 +38,7 @@
 }
 
 .product__description{
-  font-family: Arial;
+  font-family: $font-second;
   font-size: 12px;
   line-height: 16px;
   padding: 0px;
@@ -97,7 +97,9 @@
 
   .product__img{
     position: relative;
-    width: 252px;
+    // width: 252px;
+    width: 168px;
+    // height: 200px;
   }
 
   .product__table{
