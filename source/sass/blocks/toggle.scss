@@ -1,0 +1,125 @@
+.total__button-container{
+  display: flex;
+  justify-content: space-between;
+  // width: 202px;
+}
+
+.total__toggle-button{
+  font-family: Oswald;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  color: #000000;
+  background-color: transparent;
+}
+
+.total__toggle-button--right{
+  padding-left: 44px;
+}
+.total__toggle-button--left{
+  padding-right: 39px;
+}
+
+.total__img-container{
+  width: 311px;
+  height: 232px;
+  padding-bottom: 28px;
+}
+
+// .total__img{
+//   width: 311px;
+//   height: 232px;
+// }
+
+.total__slider{
+  position: relative;
+}
+
+.total__slider::before{
+  position: absolute;
+  top: 4px;
+  right: -42px;
+  content: "";
+
+  width: 84px;
+  height: 14px;
+
+  background-image: url(../img/slider-mobile.svg);
+  background-repeat: no-repeat;
+
+}
+
+.total__toggle {
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // padding-top: 50px;
+  // padding-bottom: 35px;
+}
+//
+// .xx{
+//   font-size: 16px;
+//   line-height: 20px;
+// }
+//
+//
+// .total__img {
+//   background-color: #EAEAEA;
+// }
+//
+// .total__toggle-label{
+//     display: block;
+//     width: 84px;
+//     height: 14px;
+//     margin-top: 3px;
+//     background-color: #fff;
+//     border: 1px solid #cdcdcd;
+//     border-radius: 6px;
+// }
+
+
+@media (min-width: $tablet-width){
+  .total__img-container{
+    padding-top: 40px;
+    padding-bottom: 0px;
+    width: 708px;
+    height: 520px;
+  }
+
+  .total__img{
+    // padding-top: 4px;
+    // padding-left: 10px;
+
+  }
+
+  .total__slider::before{
+    top: -5px;
+    right: -180px;
+
+
+    width: 428px;
+    height: 34px;
+
+    background-image: url(../img/slider-tablet.svg);
+    background-repeat: no-repeat;
+
+  }
+
+  // .total__toggle-button{
+  //   border-bottom: 1px dotted #000000;
+  // }
+}
+
+@media (min-width: $desktop-width){
+  .wrapper--total{
+    display: grid;
+    grid-template-columns: 570px 570px;
+    grid-gap: 80px;
+  }
+
+  .total__img-container{
+      padding-bottom: 100px;
+  }
+}

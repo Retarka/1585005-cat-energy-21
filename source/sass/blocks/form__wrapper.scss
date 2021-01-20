@@ -14,6 +14,7 @@
 
 .form__item{
   display: flex;
+  align-items: center;
   // justify-content: space-between;
 }
 
@@ -207,6 +208,7 @@
   list-style: none;
   padding: 0px;
 }
+
 .form__withal-title::after{
   content: "";
   position: absolute;
@@ -260,6 +262,61 @@
 }
 
 @media (min-width:$tablet-width){
+  .form__container{
+    padding-left: 50px;
+  }
+
+  .form__label{
+    padding-top: 0px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .form__input{
+    margin-top: 0px;
+    padding-top: 10px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .form__item{
+    margin-bottom: 20px;
+    width: 630px;
+  }
+
+
+
+
+  .form__label-radio{
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .form__input-radio+label::before {
+    left: -3px;
+    top: -8px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .form__input-radio:checked + label::after {
+    left: 6px;
+    top: 1px;
+    width: 18px;
+    height: 18px;
+  }
+
+  .form__wrapper--owner{
+    padding-left: 50px;
+  }
+
+  .form__wrapper--comment{
+    padding-left: 50px;
+  }
+
+  .form__wrapper--withal{
+    padding-left: 50px;
+  }
 
   .form__fieldset--purpose{
     width: 630px;
@@ -290,7 +347,11 @@
     width: 75vw;
   }
 
-
+  .form__list-withal--form{
+    display: flex;
+    flex-wrap: wrap;
+    // width: 575px;
+  }
 
   .form__owner-title::before{
     content: "";
