@@ -73,7 +73,7 @@
   width: 280px;
   height: 40px;
   padding: 11px 109px 5px 109px;
-    // padding: 10px 109px 10px 109px;
+  // padding: 10px 109px 10px 109px;
 }
 
 @media (min-width:$tablet-width) {
@@ -83,47 +83,67 @@
   }
 
   .additional-info__container {
-    padding-top: 15px;
-    padding-right: 38px;
+    padding-top: 28px;
+    padding-bottom: 21px;
+    padding-right: 28px;
   }
 
-  .additional-info__title{
-    padding-left: 35px;
+  .additional-info__title--catalog{
+    font-size: 36px;
+    line-height: 36px;
+    padding-top: 46px;
+    padding-left: 46px;
+    padding-bottom: 80px;
   }
 
   .additional-info__title::after{
-    top: 38px;
-    left: calc(100% + 17px);
+    top: 68px;
+    left: calc(100% + 38px);
     width: 56vw;
   }
 
   .additional-info__title::before{
     content: "";
     position: absolute;
-    top: 38px;
-    right: calc(100% + 5px);
-    width: 100vw;
-    height: 3px;
+    top: 68px;
+    right: calc(100% + -10px);
+    width: 4vw;
+    height: 2px;
     background-color: #68b738;
 
   }
 
   .additional-info__item-title{
-    padding-left: 38px;
+    font-family: Oswald;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 24px;
+    margin-bottom: 30px;
+    padding-left: 47px;
   }
 
   .additional-info__button {
     text-align: center;
     width: 400px;
     height: 26px;
-    padding: 6px 220px 6px 220px;
-    margin-left: 38px;
-    margin-right: 38px;
+    padding: 6px 220px;
+    margin-left: 46px;
+    margin-right: 27px;
   }
 
   .additional-info__description {
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 20px;
     padding-right: 49px;
   }
+
+  .additional-info__price{
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+
 
   .additional-info__item {
     display: flex;

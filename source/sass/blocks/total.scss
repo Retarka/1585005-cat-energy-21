@@ -82,6 +82,7 @@
     background-color: #FFFFFF;
   }
 
+
   .total__title{
     font-style: normal;
     font-weight: normal;
@@ -89,7 +90,7 @@
     line-height: 60px;
     padding-top: 15px;
     padding-left: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 52px;
   }
 
   .total__description{
@@ -99,6 +100,7 @@
     font-size: 16px;
     line-height: 24px;
     padding-left: 10px;
+
   }
 
   .total__value{
@@ -120,6 +122,7 @@
 
   .total__info {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
   }
 
@@ -164,7 +167,7 @@
   .total__title{
     padding-top: 15px;
     padding-left: 0px;
-    padding-bottom: 130px;
+    padding-bottom: 68px;
   }
 
   .total__description{
@@ -177,18 +180,31 @@
     height: 72px;
   }
 
+  .total__list{
+    padding-top: 44px;
+    margin-left: 3px;
+  }
+
   .total__cost {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 325px;
+    padding-top: 10px;
   }
+
+  .total__cost-item{
+    padding: 0px;
+    width: 270px;
+  }
+
+
 
   .total__info {
     flex-direction: column;
     width: 650px;
     padding-top: 65px;
-    padding-bottom: 65px;
+    padding-bottom: 265px;
   }
 }
