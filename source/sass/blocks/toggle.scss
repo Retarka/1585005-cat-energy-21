@@ -28,10 +28,6 @@
   padding-bottom: 28px;
 }
 
-// .total__img{
-//   width: 311px;
-//   height: 232px;
-// }
 
 .total__slider{
   position: relative;
@@ -51,33 +47,6 @@
 
 }
 
-.total__toggle {
-  // display: flex;
-  // flex-direction: column;
-  // align-items: center;
-  // padding-top: 50px;
-  // padding-bottom: 35px;
-}
-//
-// .xx{
-//   font-size: 16px;
-//   line-height: 20px;
-// }
-//
-//
-// .total__img {
-//   background-color: #EAEAEA;
-// }
-//
-// .total__toggle-label{
-//     display: block;
-//     width: 84px;
-//     height: 14px;
-//     margin-top: 3px;
-//     background-color: #fff;
-//     border: 1px solid #cdcdcd;
-//     border-radius: 6px;
-// }
 
 
 @media (min-width: $tablet-width){
@@ -85,31 +54,32 @@
     padding-top: 40px;
     padding-bottom: 0px;
     width: 708px;
-    height: 520px;
-  }
-
-  .total__img{
-    // padding-top: 4px;
-    // padding-left: 10px;
-
+    height: 555px;
   }
 
   .total__slider::before{
-    top: -5px;
-    right: -180px;
-
-
+    top: -2px;
+    right: -217px;
     width: 428px;
     height: 34px;
-
     background-image: url(../img/slider-tablet.svg);
     background-repeat: no-repeat;
 
   }
 
-  // .total__toggle-button{
-  //   border-bottom: 1px dotted #000000;
-  // }
+  .total__toggle-button{
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .total__toggle-button--right{
+    padding-left: 78px;
+  }
+  .total__toggle-button--left{
+    padding-right: 59px;
+  }
+
+
 }
 
 @media (min-width: $desktop-width){

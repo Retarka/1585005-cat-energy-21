@@ -35,12 +35,19 @@
     background-repeat: no-repeat;
     background-size: 708px auto;
     background-position: 0px 0px;
+    margin-top: 70px;
   }
 
   .gift__description {
+    text-align: left;
     padding-top: 71px;
-    padding-left: 423px;
+    padding-left: 434px;
     padding-bottom: 69px;
+  }
+
+  .gift::before {
+    top: 58px;
+    left: 90px;
   }
 }
 

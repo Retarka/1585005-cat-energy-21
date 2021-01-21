@@ -24,7 +24,7 @@
 
 .page-footer__contacts--catalog{
   padding-bottom: 22px;
-  padding-top: 31px;
+  padding-top: 29px;
 }
 
  .page-footer__contacts--form{
@@ -64,8 +64,8 @@
   list-style: none;
   margin:0px;
   padding:0px;
-  padding-top: 24px;
-  padding-bottom: 22px;
+  padding-top: 16px;
+  padding-bottom: 17px;
 
 }
 
@@ -88,8 +88,8 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 35px;
-  padding-bottom: 28px;
+  padding-top: 38px;
+  padding-bottom: 31px;
 }
 
 .copyright__link{
@@ -97,11 +97,11 @@
   font-size: 16px;
   line-height: 18px;
   color: #444444;
-  padding-top: 21px;
+  padding-top: 28px;
 }
 
 .copyright__link-logo{
-  padding-top: 17px;
+  padding-top: 20px;
 }
 
 @media (min-width: $tablet-width){
@@ -115,24 +115,59 @@
     align-items: center;
   }
 
+
   .page-footer__contacts{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     background-color:  #FFFFFF;
+    padding-top: 100px;
+    padding-bottom: 75px;
   }
+
+  .page-footer__contacts--index{
+    padding-top: 128px;
+   }
 
   .page-footer__title{
     width: 171px;
     font-size: 20px;
     line-height: 21px;
+    padding-top: 9px;
+    padding-left: 75px;
   }
 
   .page-footer__text{
+    font-family: $font-second;
+    text-align: right;
     width: 159px;
     font-size: 16px;
     line-height: 20px;
+    padding-top: 5px;
+    padding-right: 54px;
+  }
+
+  .page-footer__city{
+    display: block;
+    padding-top: 18px;
+  }
+  .page-footer__logo{
+    padding-top: 59px;
+    padding-left: 10px;
+  }
+
+  .social__list{
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+
+  .copyright__link{
+    padding-right: 13px;
+    padding-top: 30px;
+  }
+
+  .copyright__link-logo{
   }
 
   .page-footer__social{
@@ -141,6 +176,10 @@
 
   .social__list{
     border: none;
+  }
+
+  .page-footer__iframe{
+    height: 400px;
   }
 
 }
