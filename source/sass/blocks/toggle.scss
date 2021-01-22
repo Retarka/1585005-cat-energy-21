@@ -51,6 +51,7 @@
 
 @media (min-width: $tablet-width){
   .total__img-container{
+    position: relative;
     padding-top: 40px;
     padding-bottom: 0px;
     width: 708px;
@@ -65,6 +66,13 @@
     background-image: url(../img/slider-tablet.svg);
     background-repeat: no-repeat;
 
+  }
+
+  .total__img--before{
+    position: absolute;
+    content: "";
+    top: 48px;
+    left: 10px;
   }
 
   .total__toggle-button{
@@ -83,13 +91,35 @@
 }
 
 @media (min-width: $desktop-width){
-  .wrapper--total{
-    display: grid;
-    grid-template-columns: 570px 570px;
-    grid-gap: 80px;
+  .total__toggle{
+    padding-bottom: 75px;
+  }
+
+  .total__slider::before{
+    top: -4px;
+    right: -216px;
   }
 
   .total__img-container{
-      padding-bottom: 100px;
+    height: 0px;
   }
+
+  .total__img--before{
+    left: -87px;
+    top: -185px;
+  }
+
+  .total__button-container{
+    padding-top: 330px;
+  }
+
+  .total__toggle-button--right{
+    padding-left: 0px;
+  }
+
+   .total__toggle-button--left{
+     padding-right: 5px;
+   }
+
+
 }
