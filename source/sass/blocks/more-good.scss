@@ -96,9 +96,24 @@
     width: 245px;
   }
 
+  .more-good::before{
+    top: 62px;
+    left: 90px;
+  }
+
+  .more-good__title{
+    padding-left: 55px;
+    padding-top: 170px;
+  }
+
+  .more-good__description{
+    padding-left: 37px;
+  }
+
   .more-good__button{
-    width: 169px;
-    padding: 20px 39px 20px 39px;
+      padding: 7px 37px;
+      margin-left: 39px;
+      margin-right: 38px;
   }
 
 }

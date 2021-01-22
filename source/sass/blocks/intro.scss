@@ -13,12 +13,12 @@
 }
 
  .intro__title--form{
-  margin-bottom: 35px;
+  margin-bottom: 37px;
  }
 
  .intro__description--form{
    width: 226px;
-   margin-bottom: 20px;
+   margin-bottom: 38px;
  }
 
 
@@ -53,6 +53,30 @@
     padding-left: 50px;
     margin-bottom: 66px;
   }
+
+
+
+}
+
+@media (min-width:$desktop-width){
+  .intro__title--catalog {
+    margin-top: 52px;
+    margin-bottom: 152px;
+    padding-left: 0px;
+  }
+
+  .intro__title--form{
+    margin-top: 52px;
+    padding-left: 0px;
+  }
+
+  .intro__description--form{
+    padding-left: 0px;
+  }
+
+
+
+
 
 
 
