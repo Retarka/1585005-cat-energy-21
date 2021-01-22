@@ -102,8 +102,9 @@ exports.copy  = copy;
 
 const clean = () => {
   return del("build");
-}
+};
 
+exports.clean  = clean;
 
 // Server
 
@@ -149,7 +150,6 @@ const build = gulp.series(
 exports.html = html;
 
 exports.default = gulp.series(
-  clean,
   gulp.parallel(
     styles,
     html,
