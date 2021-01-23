@@ -40,6 +40,11 @@
   padding-bottom: 22px;
 }
 
+.direction__link-description:active,
+.direction__link:active{
+  opacity: 0.3;
+}
+
 .direction__img {
   position: absolute;
   top: 2px;
@@ -55,6 +60,7 @@
   padding-bottom: 22px;
   width: 240px;
 }
+
 
 .direction__item--slim {
   background-image: url(../img/direction-img1.svg);

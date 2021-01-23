@@ -108,6 +108,11 @@
   color: black;
 }
 
+.form__input-radio[disabled]+label,
+.filter-checkbox__input[disabled]+label{
+	opacity: 0.3;
+}
+
 .form__input-radio+label::before {
   content: "";
   position: absolute;
@@ -118,6 +123,8 @@
   border: 1px solid #CDCDCD;
   border-radius: 50%;
 }
+
+
 
 .form__input-radio:checked + label::after {
   content: "";
@@ -155,6 +162,39 @@
   background-color: #68b738;
 }
 
+.form__label--email,
+.form__label--phone{
+  position: relative;
+}
+
+.form__label--email::before{
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 245px;
+  width: 18px;
+  height: 13px;
+  background-image: url("../img/mail-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.form__label--phone::before{
+  content: "";
+  position: absolute;
+  left: 246px;
+  top: 2px;
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/phone-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+
+
+
+
 /*COMMENT*/
 
 .form__comment-title{
@@ -187,6 +227,7 @@
   padding-top: 22px;
   padding-left: 13px;
   text-transform: uppercase;
+  border: 1px solid #E7E7E7;
   color: #444444;
 }
 
@@ -347,6 +388,18 @@
     left: calc(100% + 32px);
     width: 17vw;
   }
+
+  .form__label--email::before{
+    left: 594px;
+    top: 8px;
+  }
+
+  .form__label--phone::before{
+    left: 594px;
+    top: 7px;
+  }
+
+
 
   .form__comment-title{
     margin-top: 51px;
@@ -532,9 +585,13 @@
 
   }
 
-  .form__user--comment{
+  .form__item--comment,
+  .form__user{
     width: 1220px;
   }
+
+
+
 
   .filter-checkbox--left{
     margin-right: 0px;

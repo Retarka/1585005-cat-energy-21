@@ -71,6 +71,7 @@
 
 .promo__button:active{
   opacity: 0.3;
+  border: none;
 }
 
 @media (min-width:$tablet-width){
@@ -157,8 +158,8 @@
     width: 50vw;
     height: 696px;
     z-index: -1;
-
   }
+
 
   .promo__wrapper{
     padding-left: 70px;
@@ -186,6 +187,11 @@
   }
 
 
-
+    @media  (min-resolution: 144dpi),
+            (min-resolution: 1.5dppx)  {
+    .promo::before{
+      background-image: url("../img/promo-back-desktop-2x.png");
+    }
+  }
 
 }

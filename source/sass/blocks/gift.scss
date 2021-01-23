@@ -29,6 +29,13 @@
   color: #FFFFFF;
 }
 
+@media  (min-resolution: 144dpi),
+        (min-resolution: 1.5dppx)  {
+.gift{
+  background-image: url("../img/gift-photo-mobile-1x.png");
+}
+}
+
 @media (min-width:$tablet-width) {
   .gift {
     background-image: url(../img/gift-photo-tablet-2.png);
@@ -49,6 +56,12 @@
     top: 58px;
     left: 90px;
   }
+  @media  (min-resolution: 144dpi),
+          (min-resolution: 1.5dppx)  {
+  .gift{
+    background-image: url("../img/gift-photo-tablet-2x.png");
+  }
+}
 }
 
 @media (min-width:$desktop-width) {
@@ -75,4 +88,10 @@
     padding-top: 170px;
     text-align: center;
   }
+  @media  (min-resolution: 144dpi),
+          (min-resolution: 1.5dppx)  {
+  .gift{
+    background-image: url("../img/gift-photo-desktop-2x.png");
+  }
+}
 }
