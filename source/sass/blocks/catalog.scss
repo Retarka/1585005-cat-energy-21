@@ -35,14 +35,16 @@
     width: 324px;
     padding: 0px;
   }
+  .catalog__item--height {
+    height: 450px;
+  }
 }
 
 @media (min-width:$desktop-width) {
   .catalog__item {
     width: 245px;
   }
-
-  .catalog__list{
+  .catalog__list {
     height: 1050px;
   }
 }

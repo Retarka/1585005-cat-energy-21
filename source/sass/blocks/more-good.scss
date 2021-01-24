@@ -1,119 +1,113 @@
-.more-good{
-  position: relative;
+.more-good {
+	position: relative;
 }
 
-.more-good::before{
-  content: "";
-  position: absolute;
-  top: 25px;
-  left: 125px;
-  bottom: 20px;
-  width: 30px;
-  height: 30px;
-  background-image: url("../img/plus.svg");
-  background-size: cover;
+.more-good::before {
+	content: "";
+	position: absolute;
+	top: 25px;
+	left: 125px;
+	bottom: 20px;
+	width: 30px;
+	height: 30px;
+	background-image: url("../img/plus.svg");
+	background-size: cover;
 }
 
-.more-good__title{
-  font-size: 16px;
-  line-height: 20px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #111111;
-  margin: 0px;
-  padding-top: 78px;
-  padding-bottom: 8px;
+.more-good__title {
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #111111;
+	margin: 0px;
+	padding-top: 78px;
+	padding-bottom: 8px;
 }
 
-.more-good__description{
-  font-family: $font-second;
-  margin: 0px;
-  text-align: center;
-  font-size: 12px;
-  line-height: 16px;
-  color: #444444;
-  padding-bottom: 31px;
+.more-good__description {
+	font-family: $font-second;
+	margin: 0px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 16px;
+	color: #444444;
+	padding-bottom: 31px;
 }
 
-.more-good__button{
-  font-size: 16px;
-  line-height: 20px;
-  text-transform: uppercase;
-  background-color:#F2F2F2;
-  color:#444444;
-  width: 279px;
-  height: 40px;
-  margin-bottom: 100px;
-  padding: 10px 94px 10px 94px;
-
+.more-good__button {
+	font-size: 16px;
+	line-height: 20px;
+	text-transform: uppercase;
+	background-color: #F2F2F2;
+	color: #444444;
+	width: 279px;
+	height: 40px;
+	margin-bottom: 100px;
+	padding: 10px 94px 10px 94px;
 }
 
-@media (min-width:$tablet-width){
-  .more-good{
-    border: 2px solid #f2f2f2;
-    padding-bottom: 47px;
-  }
-
-  .more-good__title{
-    width: 134px;
-    font-size: 20px;
-    line-height: 22px;
-    padding-left: 105px;
-    padding-top: 160px;
-    padding-bottom: 23px;
-  }
-
-  .more-good__description{
-    width: 167px;
-    font-size: 16px;
-    line-height: 18px;
-    padding-left: 88px;
-    padding-bottom: 95px;
-  }
-
-  .more-good::before{
-    content: "";
-    position: absolute;
-    top: 50px;
-    left: 140px;
-    bottom: 20px;
-    width: 60px;
-    height: 60px;
-    background-image: url(../img/plus-tablet.svg);
-  }
-
-  .more-good__button{
-    margin-left: 31px;
-  }
-
-   .catalog__item--height{
-     height: 450px;
-   }
-
+.more-good__button:hover {
+	background-color: #EBEBEB;
 }
-@media (min-width:$desktop-width){
-  .more-good{
-    width: 245px;
-  }
 
-  .more-good::before{
-    top: 62px;
-    left: 90px;
-  }
+.more-good__button:active {
+	opacity: 0.3;
+}
 
-  .more-good__title{
-    padding-left: 55px;
-    padding-top: 170px;
-  }
+@media (min-width:$tablet-width) {
+	.more-good {
+		border: 2px solid #f2f2f2;
+		padding-bottom: 47px;
+	}
+	.more-good__title {
+		width: 134px;
+		font-size: 20px;
+		line-height: 22px;
+		padding-left: 105px;
+		padding-top: 160px;
+		padding-bottom: 23px;
+	}
+	.more-good__description {
+		width: 167px;
+		font-size: 16px;
+		line-height: 18px;
+		padding-left: 88px;
+		padding-bottom: 95px;
+	}
+	.more-good::before {
+		content: "";
+		position: absolute;
+		top: 50px;
+		left: 140px;
+		bottom: 20px;
+		width: 60px;
+		height: 60px;
+		background-image: url(../img/plus-tablet.svg);
+	}
+	.more-good__button {
+		margin-left: 31px;
+	}
+}
 
-  .more-good__description{
-    padding-left: 37px;
-  }
-
-  .more-good__button{
-      padding: 7px 37px;
-      margin-left: 39px;
-      margin-right: 38px;
-  }
-
+@media (min-width:$desktop-width) {
+	.more-good {
+		width: 245px;
+	}
+	.more-good::before {
+		top: 62px;
+		left: 90px;
+	}
+	.more-good__title {
+		padding-left: 55px;
+		padding-top: 170px;
+	}
+	.more-good__description {
+		padding-left: 37px;
+	}
+	.more-good__button {
+		padding: 7px 37px;
+		margin-left: 39px;
+		margin-right: 38px;
+	}
 }

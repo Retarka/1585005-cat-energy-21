@@ -24,7 +24,7 @@
   line-height: 18px;
   color: #444444;
   margin: 0px;
-  padding-top: 15px;
+  padding-top: 11px;
   padding-bottom: 10px;
 }
 
@@ -48,13 +48,14 @@
   margin-right: 29px;
 }
 
+
 .total__feature {
   font-family: $font-second;
   font-size: 12px;
   line-height: 12px;
   text-align: center;
   color: #444444;
-  top: 44px;
+  top: 47px;
   left: 22px;
   position: absolute;
   z-index: 1;
@@ -66,6 +67,13 @@
   padding-left: 10px;
 }
 
+
+.total__cost{
+  display: flex;
+  padding-left: 46px;
+  padding-bottom: 39px;
+}
+
 .total__cost-item {
   text-align: center;
   font-size: 14px;
@@ -73,9 +81,11 @@
   text-transform: uppercase;
   margin: 0px;
   padding-top: 16px;
-  padding-bottom: 45px;
 }
 
+ .total__cost-item--value{
+   padding-left: 5px;
+ }
 
 @media (min-width: $tablet-width) {
   .total{
@@ -140,6 +150,7 @@
   }
 
   .total__cost{
+    display: block;
     padding-top: 55px;
   }
 
@@ -153,6 +164,7 @@
 
   .total__cost-item--value {
     margin: 0px;
+    padding-top: 15px;
     font-size: 20px;
     line-height: 20px;
     text-align: right;
@@ -204,15 +216,17 @@
 
   .total__cost-item{
     padding: 0px;
-    padding-right: 60px;
   }
-
-
 
   .total__info {
     width: 650px;
     padding-top: 80px;
-    padding-bottom: 75px;
+    padding-bottom: 45px;
+  }
+
+  .total__cost-item--value{
+    width: 90px;
+    padding-left: 62px;
   }
 
 }
