@@ -75,6 +75,18 @@
 		padding-left: 88px;
 		padding-bottom: 95px;
 	}
+
+  .more-good__button {
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    background-color: #f2f2f2;
+    color: #444;
+    margin-bottom: 100px;
+    padding: 10px 83px;
+    margin-left: 44px;
+  }
+
 	.more-good::before {
 		content: "";
 		position: absolute;

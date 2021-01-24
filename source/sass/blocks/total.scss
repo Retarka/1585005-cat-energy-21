@@ -134,6 +134,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    z-index: 2;
   }
 
   .total__list{
@@ -206,6 +207,10 @@
   .total__item{
     width: 162px;
     height: 72px;
+  }
+
+  .total__feature{
+    background-color: #F2F2F2;
   }
 
   .total__cost {

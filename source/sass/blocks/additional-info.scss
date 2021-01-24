@@ -94,7 +94,7 @@
   .additional-info__title::after {
     top: 68px;
     left: calc(100% + 38px);
-    width: 56vw;
+    width: 40vw;
   }
   .additional-info__title::before {
     content: "";
@@ -168,12 +168,12 @@
     text-align: right;
   }
   .additional-info__title::after {
-    top: 67px;
-    left: calc(100% + 34px);
+    top: 64px;
+    left: calc(90% + 70px);
     width: 65vw;
   }
   .additional-info__title::before {
-    top: 68px;
+    top: 65px;
     right: calc(100% + 39px);
     width: 7vw;
   }

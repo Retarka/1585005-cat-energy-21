@@ -25,7 +25,7 @@
 
 .toggle__img-container {
 	position: relative;
-	width: 280px;
+	width: 301px;
 	height: 232px;
 	padding-bottom: 37px;
 }
@@ -67,15 +67,45 @@
 
 @media (min-width: $tablet-width) {
 	.toggle {
+    position: relative;
 		width: 708px;
-		background: linear-gradient(to right, #f2f2f2 50%, #eaeaea 50%);
+		// background: linear-gradient(to right, #f2f2f2 50%, #eaeaea 50%);
 	}
+
+  .toggle::before{
+    content: "";
+    position: absolute;
+    right: 50%;
+    bottom: 0;
+    top: 223px;
+    width: 49vw;
+    height: 462px;
+    background-color: #e6e6e6;
+    z-index: 1;
+  }
+
+  .toggle::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    top: 223px;
+    width: 49vw;
+    height: 462px;
+    background-color: #e6e6e6;
+    z-index: 1;
+  }
+
+  .toggle__img{
+    z-index: 2;
+  }
 	.toggle__img-container {
 		padding-top: 40px;
 		padding-bottom: 0px;
 		width: 708px;
-		height: 555px;
+		height: 544px;
 	}
+
 	.toggle__slider {
 		position: relative;
 	}
@@ -88,6 +118,7 @@
 		height: 34px;
 		background-image: url(../img/slider-line.png);
 		background-repeat: no-repeat;
+    z-index: 2;
 	}
 	.toggle__button-container::after {
 		content: "";
@@ -96,8 +127,10 @@
 		top: 2px;
 		width: 34px;
 		height: 34px;
+    background-color: white;
 		border: 1px solid #cdcdcd;
 		border-radius: 50%;
+    z-index: 2;
 	}
 	.toggle__button-container:hover::after {
 		border: 1px solid #1111;
@@ -111,17 +144,25 @@
 		height: 8px;
 		background-color: #68b738;
 		border-radius: 50%;
+    border-color: transparent;
+    z-index: 3;
 	}
 	.toggle__img--before {
 		position: absolute;
 		content: "";
-		top: 48px;
+		top: 31px;
 		left: 10px;
 	}
 	.toggle__button {
 		font-size: 20px;
 		line-height: 30px;
 	}
+
+  .toggle__button-before,
+  .toggle__button-after{
+    z-index: 2;
+  }
+
 	.toggle__button--right {
 		padding-left: 78px;
 	}
@@ -135,16 +176,38 @@
 		width: 570px;
 		padding-bottom: 75px;
 	}
+  .toggle::before{
+    right: 50%;
+    bottom: 0;
+    top: 8px;
+    width: 72vw;
+    height: 472px;
+    background-color: #F2F2F2;
+    z-index: 1;
+  }
+
+  .toggle::after{
+    bottom: 0;
+    left: 50%;
+    top: 8px;
+    width: 29vw;
+    height: 472px;
+    background-color: #e6e6e6;
+    z-index: 1;
+  }
 	.toggle__slider::before {
 		top: 13px;
 		right: -216px;
 	}
 	.toggle__button-container::after {
+    background-color: white;
     top: 328px;
     left: 267px;
 	}
 	.toggle__button-container::before {
+    left: 280px;
 		top: 340px;
+    background-color: #68b738;
 	}
 	.toggle__img-container {
 		height: 0px;
