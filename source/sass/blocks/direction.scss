@@ -4,8 +4,8 @@
 }
 
 .direction__item {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 .direction__title {
@@ -19,11 +19,11 @@
 }
 
 .direction__description {
-  font-family: Arial;
+  font-family: "Arial", "Verdana", sans-serif;
   font-size: 14px;
   line-height: 18px;
   color: #444444;
-  margin: 0px;
+  margin: 0;
   padding-top: 5px;
   padding-bottom: 40px;
   padding-left: 20px;
@@ -62,13 +62,13 @@
 }
 
 .direction__item--slim {
-  background-image: url(../img/direction-img1.svg);
+  background-image: url("../img/direction-img1.svg");
   background-repeat: no-repeat;
   background-position: 22px 20px;
 }
 
 .direction__item--large {
-  background-image: url(../img/direction-img2.svg);
+  background-image: url("../img/direction-img2.svg");
   background-repeat: no-repeat;
   background-position: 15px 20px;
 }
@@ -77,6 +77,7 @@
   .direction {
     margin-top: 90px;
   }
+
   .direction__title {
     font-style: normal;
     font-weight: normal;
@@ -86,6 +87,7 @@
     padding-left: 63px;
     margin-bottom: 21px;
   }
+
   .direction__description {
     font-size: 16px;
     line-height: 24px;
@@ -94,30 +96,36 @@
     padding-right: 33px;
     width: 377px;
   }
+
   .direction__link {
     padding-top: 19px;
     padding-bottom: 22px;
     width: 240px;
   }
+
   .direction__link-description {
     padding-left: 60px;
     padding-bottom: 55px;
     font-size: 20px;
     line-height: 30px;
   }
+
   .direction__description--large {
     width: 342px;
   }
+
   .direction__item--slim {
-    background-image: url(../img/cat-back.svg);
+    background-image: url("../img/cat-back.svg");
     background-repeat: no-repeat;
     background-position: 456px 80px;
   }
+
   .direction__item--large {
-    background-image: url(../img/cat-back2.svg);
+    background-image: url("../img/cat-back2.svg");
     background-repeat: no-repeat;
     background-position: 421px 85px;
   }
+
   .direction__img {
     top: 9px;
     left: 196px;
@@ -130,29 +138,35 @@
   .direction__item {
     width: 570px;
   }
+
   .direction__title {
     padding-top: 18px;
     padding-left: 215px;
   }
+
   .direction__description {
     padding-top: 53px;
     padding-left: 51px;
     padding-bottom: 27px;
     width: 467px;
   }
+
   .direction__link-description {
     padding-left: 52px;
   }
+
   .direction__item--slim {
-    background-image: url(../img/direction-desk-1.svg);
+    background-image: url("../img/direction-desk-1.svg");
     background-repeat: no-repeat;
     background-position: 51px 18px;
   }
+
   .direction__item--large {
-    background-image: url(../img/direction-desk-2.svg);
+    background-image: url("../img/direction-desk-2.svg");
     background-repeat: no-repeat;
     background-position: 33px 25px;
   }
+
   .direction__img {
     top: 9px;
     left: 196px;

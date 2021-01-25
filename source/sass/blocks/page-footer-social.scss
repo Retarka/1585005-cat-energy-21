@@ -4,8 +4,8 @@
   justify-content: space-between;
   width: 140px;
   list-style: none;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   padding-top: 16px;
   padding-bottom: 17px;
 }
@@ -17,8 +17,8 @@
   align-items: center;
   width: 30px;
   height: 30px;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 .social__item::before {
@@ -47,14 +47,12 @@
   display: block;
   width: 23px;
   height: 16px;
-  fill: #666666;
 }
 
 .social__link--insta {
   display: block;
   width: 16px;
   height: 16px;
-  fill: #666666;
 }
 
 .social__link--fs {
@@ -69,23 +67,28 @@
   .social {
     flex-grow: 1;
   }
+
   .social__list {
     padding-top: 31px;
     padding-left: 36px;
     padding-bottom: 3px;
   }
+
   .social__item::before,
   .social__item::after {
     display: none;
   }
+
   .social__link--vk {
     width: 30px;
     height: 22px;
   }
+
   .social__link--insta {
     width: 23px;
     height: 23px;
   }
+
   .social__link--fs {
     width: 28px;
     height: 33px;

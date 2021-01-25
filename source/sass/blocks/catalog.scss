@@ -19,8 +19,8 @@
 
 .catalog__list {
   list-style: none;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 @media (min-width: $tablet-width) {
@@ -29,12 +29,14 @@
     flex-wrap: wrap;
     justify-content: space-between;
   }
+
   .catalog__item {
     display: flex;
     flex-direction: column;
     width: 324px;
-    padding: 0px;
+    padding: 0;
   }
+
   .catalog__item--height {
     height: 450px;
   }
@@ -44,6 +46,7 @@
   .catalog__item {
     width: 245px;
   }
+
   .catalog__list {
     height: 1050px;
   }

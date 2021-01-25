@@ -1,11 +1,12 @@
 .toggle__button-container {
+  position: relative;
   display: flex;
   justify-content: space-between;
   // width: 202px;
 }
 
 .toggle__button {
-  font-family: Oswald;
+  font-family: "Oswald", "Helvetica", sans-serif;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
@@ -38,10 +39,6 @@
   left: -4px;
 }
 
-.toggle__button-container {
-  position: relative;
-}
-
 .toggle__button-container::before {
   content: "";
   position: absolute;
@@ -70,6 +67,7 @@
     width: 708px;
     // background: linear-gradient(to right, #f2f2f2 50%, #eaeaea 50%);
   }
+
   .toggle::before {
     content: "";
     position: absolute;
@@ -81,6 +79,7 @@
     background-color: #e6e6e6;
     z-index: 1;
   }
+
   .toggle::after {
     content: "";
     position: absolute;
@@ -92,18 +91,22 @@
     background-color: #e6e6e6;
     z-index: 1;
   }
+
   .toggle__img {
     z-index: 2;
   }
+
   .toggle__img-container {
     padding-top: 40px;
-    padding-bottom: 0px;
+    padding-bottom: 0;
     width: 708px;
     height: 544px;
   }
+
   .toggle__slider {
     position: relative;
   }
+
   .toggle__slider::before {
     position: absolute;
     content: "";
@@ -111,10 +114,11 @@
     right: -217px;
     width: 428px;
     height: 34px;
-    background-image: url(../img/slider-line.png);
+    background-image: url("../img/slider-line.png");
     background-repeat: no-repeat;
     z-index: 2;
   }
+
   .toggle__button-container::after {
     content: "";
     position: absolute;
@@ -127,9 +131,11 @@
     border-radius: 50%;
     z-index: 2;
   }
+
   .toggle__button-container:hover::after {
-    border: 1px solid #1111;
+    border: 1px solid #111111;
   }
+
   .toggle__button-container::before {
     content: "";
     position: absolute;
@@ -142,29 +148,35 @@
     border-color: transparent;
     z-index: 3;
   }
+
   .toggle__img--before {
     position: absolute;
     content: "";
     top: 31px;
     left: 10px;
   }
+
   .toggle__button {
     position: relative;
     font-size: 20px;
     line-height: 30px;
   }
+
   .toggle__button-before,
   .toggle__button-after {
     z-index: 2;
   }
+
   .toggle__button--right {
     padding-left: 78px;
     border: none;
   }
+
   .toggle__button--left {
     padding-right: 59px;
     border: none;
   }
+
   .toggle__button--right::before {
     content: "";
     position: absolute;
@@ -174,6 +186,7 @@
     height: 1px;
     border-bottom: 1px dotted #000000;
   }
+
   .toggle__button--left::after {
     content: "";
     position: absolute;
@@ -190,6 +203,7 @@
     width: 570px;
     padding-bottom: 75px;
   }
+
   .toggle::before {
     right: 50%;
     bottom: 0;
@@ -199,6 +213,7 @@
     background-color: #f2f2f2;
     z-index: 1;
   }
+
   .toggle::after {
     bottom: 0;
     left: 50%;
@@ -208,37 +223,46 @@
     background-color: #e6e6e6;
     z-index: 1;
   }
+
   .toggle__slider::before {
     top: 13px;
     right: -216px;
   }
+
   .toggle__button-container::after {
     background-color: white;
     top: 328px;
     left: 267px;
   }
+
   .toggle__button-container::before {
     left: 280px;
     top: 340px;
     background-color: #68b738;
   }
+
   .toggle__img-container {
-    height: 0px;
+    height: 0;
   }
+
   .toggle__img--before {
     left: -87px;
     top: -185px;
   }
+
   .toggle__button-container {
     padding-top: 330px;
   }
+
   .toggle__button--right {
-    padding-left: 0px;
+    padding-left: 0;
   }
+
   .toggle__button--right::before {
-    left: 0px;
+    left: 0;
   }
+
   .toggle__button--left {
-    padding-right: 0px;
+    padding-right: 0;
   }
 }

@@ -22,7 +22,7 @@
 .filter-checkbox__input + label::before {
   content: "";
   position: absolute;
-  left: 0px;
+  left: 0;
   top: -5px;
   width: 30px;
   height: 30px;
@@ -44,24 +44,29 @@
 
 @media (min-width: $tablet-width) {
   .filter-checkbox {
-    padding-left: 0px;
+    padding-left: 0;
     margin-bottom: 39px;
   }
+
   .filter-checkbox--right {
     padding-right: 37px;
   }
+
   .filter-checkbox--left {
     margin-right: 59px;
   }
+
   .filter-checkbox__label {
     padding-left: 57px;
     font-size: 20px;
     line-height: 30px;
   }
+
   .filter-checkbox__input + label::before {
     width: 40px;
     height: 40px;
   }
+
   .filter-checkbox__input:checked + label::after {
     top: 6px;
     left: 11px;
@@ -72,14 +77,17 @@
   .filter-checkbox__label {
     padding-left: 58px;
   }
+
   .filter-checkbox--left {
-    margin-right: 0px;
+    margin-right: 0;
   }
+
   .filter-checkbox {
     width: 245px;
     margin-right: 80px;
   }
+
   .filter-checkbox:nth-child(4) {
-    margin-right: 0px;
+    margin-right: 0;
   }
 }
