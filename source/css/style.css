@@ -320,7 +320,7 @@ body img {
   text-transform: uppercase; }
 
 .direction__description {
-  font-family: "PT Sans Narrow", "Arial", sans-serif;
+font-family: Arial;
   font-size: 14px;
   line-height: 18px;
   color: #444444;
@@ -431,7 +431,7 @@ body img {
 
 .composition__item-description {
   width: 200px;
-  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-family: Arial;
   font-size: 14px;
   line-height: 18px;
   color: #444444;
@@ -548,7 +548,7 @@ body img {
   padding-bottom: 20px; }
 
 .total__description {
-  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-family: Arial;
   font-size: 14px;
   line-height: 18px;
   color: #444444;
@@ -574,7 +574,7 @@ body img {
   margin-right: 20px; }
 
 .total__feature {
-  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-family: Arial;
   font-size: 12px;
   line-height: 12px;
   text-align: center;

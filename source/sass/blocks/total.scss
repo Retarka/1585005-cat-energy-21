@@ -19,7 +19,7 @@
 }
 
 .total__description {
-  font-family: $font-second;
+  font-family: Arial;
   font-size: 14px;
   line-height: 18px;
   color: #444444;
@@ -50,7 +50,7 @@
 
 
 .total__feature {
-  font-family: $font-second;
+  font-family: Arial;
   font-size: 12px;
   line-height: 12px;
   text-align: center;
@@ -83,9 +83,9 @@
   padding-top: 16px;
 }
 
- .total__cost-item--value{
-   padding-left: 5px;
- }
+.total__cost-item--value{
+  padding-left: 5px;
+}
 
 @media (min-width: $tablet-width) {
   .total{
@@ -104,7 +104,7 @@
   }
 
   .total__description{
-    font-family: $font-second;
+    font-family: Arial;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -134,6 +134,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    z-index: 2;
   }
 
   .total__list{
@@ -206,6 +207,10 @@
   .total__item{
     width: 162px;
     height: 72px;
+  }
+
+  .total__feature{
+    background-color: #F2F2F2;
   }
 
   .total__cost {

@@ -1,28 +1,29 @@
 .copyright__link {
-	font-family: $font-second;
-	font-size: 16px;
-	line-height: 18px;
-	color: #444444;
-	padding-top: 28px;
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 18px;
+  color: #444444;
+  padding-top: 28px;
 }
 
 .copyright__link-logo {
-	padding-top: 20px;
+  padding-top: 20px;
 }
 
+
 @media (min-width: $tablet-width) {
-	.copyright__link {
-		padding-right: 13px;
-		padding-top: 30px;
-	}
+  .copyright__link {
+    padding-right: 13px;
+    padding-top: 30px;
+  }
 }
 
 @media (min-width:$desktop-width) {
-	.copyright__link {
-		padding-top: 32px;
-		padding-right: 23px;
-	}
-	.copyright__link-logo {
-		padding-top: 25px;
-	}
+  .copyright__link {
+    padding-top: 32px;
+    padding-right: 23px;
+  }
+  .copyright__link-logo {
+    padding-top: 25px;
+  }
 }
