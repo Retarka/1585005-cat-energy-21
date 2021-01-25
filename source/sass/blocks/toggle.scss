@@ -31,7 +31,6 @@
 }
 
 // 301px
-
 .toggle__img--before {
   position: absolute;
   content: "";
@@ -71,8 +70,7 @@
     width: 708px;
     // background: linear-gradient(to right, #f2f2f2 50%, #eaeaea 50%);
   }
-
-  .toggle::before{
+  .toggle::before {
     content: "";
     position: absolute;
     right: 50%;
@@ -83,8 +81,7 @@
     background-color: #e6e6e6;
     z-index: 1;
   }
-
-  .toggle::after{
+  .toggle::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -95,8 +92,7 @@
     background-color: #e6e6e6;
     z-index: 1;
   }
-
-  .toggle__img{
+  .toggle__img {
     z-index: 2;
   }
   .toggle__img-container {
@@ -105,7 +101,6 @@
     width: 708px;
     height: 544px;
   }
-
   .toggle__slider {
     position: relative;
   }
@@ -158,13 +153,10 @@
     font-size: 20px;
     line-height: 30px;
   }
-
-
   .toggle__button-before,
-  .toggle__button-after{
+  .toggle__button-after {
     z-index: 2;
   }
-
   .toggle__button--right {
     padding-left: 78px;
     border: none;
@@ -173,8 +165,7 @@
     padding-right: 59px;
     border: none;
   }
-
-  .toggle__button--right::before{
+  .toggle__button--right::before {
     content: "";
     position: absolute;
     top: 31px;
@@ -183,8 +174,7 @@
     height: 1px;
     border-bottom: 1px dotted #000000;
   }
-
-  .toggle__button--left::after{
+  .toggle__button--left::after {
     content: "";
     position: absolute;
     top: 29px;
@@ -200,7 +190,7 @@
     width: 570px;
     padding-bottom: 75px;
   }
-  .toggle::before{
+  .toggle::before {
     right: 50%;
     bottom: 0;
     top: 8px;
@@ -209,8 +199,7 @@
     background-color: #F2F2F2;
     z-index: 1;
   }
-
-  .toggle::after{
+  .toggle::after {
     bottom: 0;
     left: 50%;
     top: 8px;
@@ -246,11 +235,9 @@
   .toggle__button--right {
     padding-left: 0px;
   }
-
-  .toggle__button--right::before{
+  .toggle__button--right::before {
     left: 0px;
   }
-
   .toggle__button--left {
     padding-right: 0px;
   }

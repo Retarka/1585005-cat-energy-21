@@ -43,12 +43,11 @@
 }
 
 @media (min-width:$tablet-width) {
-  .filter-checkbox{
+  .filter-checkbox {
     padding-left: 0px;
     margin-bottom: 39px;
   }
-
-  .filter-checkbox--right{
+  .filter-checkbox--right {
     padding-right: 37px;
   }
   .filter-checkbox--left {
@@ -63,8 +62,7 @@
     width: 40px;
     height: 40px;
   }
-
-  .filter-checkbox__input:checked+label::after{
+  .filter-checkbox__input:checked+label::after {
     top: 6px;
     left: 11px;
   }

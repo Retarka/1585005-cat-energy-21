@@ -44,10 +44,9 @@
   text-align: center;
 }
 
-.total__item--left{
+.total__item--left {
   margin-right: 29px;
 }
-
 
 .total__feature {
   font-family: Arial;
@@ -67,8 +66,7 @@
   padding-left: 10px;
 }
 
-
-.total__cost{
+.total__cost {
   display: flex;
   padding-left: 46px;
   padding-bottom: 39px;
@@ -83,17 +81,15 @@
   padding-top: 16px;
 }
 
-.total__cost-item--value{
+.total__cost-item--value {
   padding-left: 5px;
 }
 
 @media (min-width: $tablet-width) {
-  .total{
+  .total {
     background-color: #FFFFFF;
   }
-
-
-  .total__title{
+  .total__title {
     font-style: normal;
     font-weight: normal;
     font-size: 60px;
@@ -102,23 +98,19 @@
     padding-left: 10px;
     padding-bottom: 52px;
   }
-
-  .total__description{
+  .total__description {
     font-family: Arial;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
     padding-left: 10px;
-
   }
-
-  .total__value{
+  .total__value {
     font-size: 30px;
     line-height: 37px;
   }
-
-  .total__feature{
+  .total__feature {
     font-size: 14px;
     line-height: 14px;
     width: 127px;
@@ -127,34 +119,28 @@
     left: 10px;
     padding-left: 4px;
     padding-right: 2px;
-    background-color:  #FFFFFF;
+    background-color: #FFFFFF;
   }
-
   .total__info {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     z-index: 2;
   }
-
-  .total__list{
+  .total__list {
     margin-left: 10px;
     padding-top: 30px;
   }
-
   .total__item {
     width: 162px;
     height: 72px;
     margin: 0px;
     margin-right: 40px;
-
   }
-
-  .total__cost{
+  .total__cost {
     display: block;
     padding-top: 55px;
   }
-
   .total__cost-item {
     width: 174px;
     margin: 0px;
@@ -162,7 +148,6 @@
     font-size: 20px;
     line-height: 20px;
   }
-
   .total__cost-item--value {
     margin: 0px;
     padding-top: 15px;
@@ -170,68 +155,55 @@
     line-height: 20px;
     text-align: right;
   }
-
-
 }
 
 @media (min-width:$desktop-width) {
-
-  .total__title{
+  .total__title {
     padding-top: 15px;
     padding-left: 0px;
     padding-bottom: 68px;
   }
-
-  .wrapper--total{
+  .wrapper--total {
     display: grid;
     grid-template-columns: 570px 570px;
     grid-gap: 80px;
   }
-
-  .total__description{
+  .total__description {
     padding: 0px;
     margin-bottom: 66px;
     padding-left: 0px;
     width: 436px;
     height: 96px;
   }
-
-  .total__list{
+  .total__list {
     height: 75px;
     margin-top: 0px;
     margin-bottom: 39px;
     margin-left: 0px;
     padding-top: 0px;
   }
-
-  .total__item{
+  .total__item {
     width: 162px;
     height: 72px;
   }
-
-  .total__feature{
+  .total__feature {
     background-color: #F2F2F2;
   }
-
   .total__cost {
     display: flex;
     padding-top: 20px;
     padding-left: 0px;
   }
-
-  .total__cost-item{
+  .total__cost-item {
     padding: 0px;
   }
-
   .total__info {
     width: 650px;
     padding-top: 80px;
     padding-bottom: 45px;
   }
-
-  .total__cost-item--value{
+  .total__cost-item--value {
     width: 90px;
     padding-left: 62px;
   }
-
 }

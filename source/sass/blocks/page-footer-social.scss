@@ -21,8 +21,7 @@
   padding: 0px;
 }
 
-
-.social__item::before{
+.social__item::before {
   content: "";
   position: absolute;
   right: 50%;
@@ -33,7 +32,7 @@
   background-color: #D9D9D9;
 }
 
-.social__item::after{
+.social__item::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -51,7 +50,7 @@
 }
 
 .social__link--vk path {
-  fill: #666;
+  fill:  #666666;
 }
 
 .social__link--insta {
@@ -61,7 +60,7 @@
 }
 
 .social__link--insta path {
-  fill: #000;
+  fill:  #666666;
 }
 
 .social__link--fs {
@@ -71,7 +70,8 @@
 }
 
 .social__link--fs path {
-  fill: #666;
+  fill:  #666666;
+  stroke: #666666;
 }
 
 @media (min-width: $tablet-width) {
@@ -83,9 +83,8 @@
     padding-left: 36px;
     padding-bottom: 3px;
   }
-
   .social__item::before,
-  .social__item::after{
+  .social__item::after {
     display: none;
   }
   .social__link--vk {
