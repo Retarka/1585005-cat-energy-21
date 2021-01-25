@@ -152,7 +152,7 @@
     height: 280px;
     font-size: 280px;
     line-height: 280px;
-    color: #F2F2F2;
+    color: #f2f2f2;
     z-index: -1;
   }
   .composition__item--simply {
@@ -181,7 +181,7 @@
     height: 280px;
     font-size: 280px;
     line-height: 280px;
-    color: #F2F2F2;
+    color: #f2f2f2;
     z-index: -1;
   }
   .composition__item--functionality {
@@ -210,7 +210,7 @@
     height: 280px;
     font-size: 280px;
     line-height: 280px;
-    color: #F2F2F2;
+    color: #f2f2f2;
     z-index: -1;
   }
   .composition__item--result {
@@ -239,12 +239,12 @@
     height: 280px;
     font-size: 280px;
     line-height: 280px;
-    color: #F2F2F2;
+    color: #f2f2f2;
     z-index: -1;
   }
 }
 
-@media (min-width:$desktop-width) {
+@media (min-width: $desktop-width) {
   .composition__item {
     width: 245px;
     padding-right: 50px;

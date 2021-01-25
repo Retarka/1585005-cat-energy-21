@@ -1,5 +1,5 @@
 .promo {
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 0px;
   margin: 0px;
 }
@@ -50,8 +50,8 @@
   line-height: 18px;
   text-transform: uppercase;
   text-align: center;
-  background-color: #68B738;
-  color: #FFFFFF;
+  background-color: #68b738;
+  color: #ffffff;
   margin: 0px;
   margin-top: 24px;
   padding: 9px 44px;
@@ -59,7 +59,7 @@
 }
 
 .promo__button:hover {
-  background-color: #5EAA2F;
+  background-color: #5eaa2f;
 }
 
 .promo__button:active {
@@ -68,10 +68,10 @@
 }
 
 .promo__link {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-@media (min-width:$tablet-width) {
+@media (min-width: $tablet-width) {
   .promo {
     padding-top: 29px;
     padding-bottom: 435px;
@@ -102,7 +102,7 @@
   .promo__title,
   .promo__description {
     color: #000000;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
   }
   .promo__button {
     font-family: Oswald;
@@ -131,7 +131,7 @@
   }
 }
 
-@media (min-width:$desktop-width) {
+@media (min-width: $desktop-width) {
   .promo {
     position: relative;
     min-height: auto;
@@ -179,8 +179,7 @@
   .promo__button {
     margin-left: 10px;
   }
-  @media (min-resolution: 144dpi),
-  (min-resolution: 1.5dppx) {
+  @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     .promo::before {
       background-image: url("../img/promo-back-desktop-2x.png");
     }

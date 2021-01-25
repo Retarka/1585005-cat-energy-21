@@ -32,12 +32,12 @@
   padding-top: 15px;
   padding-left: 15px;
   padding-bottom: 14px;
-  border: 1px solid #E7E7E7;
+  border: 1px solid #e7e7e7;
   box-sizing: border-box;
 }
 
 .form__input:hover {
-  border: 1px solid #CDCDCD;
+  border: 1px solid #cdcdcd;
 }
 
 .form__input:focus {
@@ -45,7 +45,7 @@
 }
 
 .form__input:invalid:not(:placeholder-shown) {
-  border: 2px solid #FF8282;
+  border: 2px solid #ff8282;
 }
 
 ::-webkit-input-placeholder {
@@ -98,7 +98,6 @@
   background-color: #e6e6e6;
 }
 
-
 /*PURPOSE*/
 
 .form__list-purpose {
@@ -108,8 +107,8 @@
 }
 
 .form__fieldset--purpose {
-  border-top: 1px solid #D9D9D9;
-  border-bottom: 1px solid #D9D9D9;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
   margin-bottom: 4px;
 }
 
@@ -133,28 +132,27 @@
   color: black;
 }
 
-.form__input-radio+label::before {
+.form__input-radio + label::before {
   content: "";
   position: absolute;
   left: 0px;
   top: -8px;
   width: 28px;
   height: 28px;
-  border: 1px solid #CDCDCD;
+  border: 1px solid #cdcdcd;
   border-radius: 50%;
 }
 
-.form__input-radio:checked+label::after {
+.form__input-radio:checked + label::after {
   content: "";
   position: absolute;
   left: 8px;
   top: 1px;
   width: 13px;
   height: 14px;
-  background-color: #68B738;
+  background-color: #68b738;
   border-radius: 50%;
 }
-
 
 /*OWNER*/
 
@@ -232,7 +230,6 @@
   background-position: 0 0;
 }
 
-
 /*COMMENT*/
 
 .form__comment-title {
@@ -265,10 +262,9 @@
   padding-top: 22px;
   padding-left: 13px;
   text-transform: uppercase;
-  border: 1px solid #E7E7E7;
+  border: 1px solid #e7e7e7;
   color: #444444;
 }
-
 
 /*WITHAL*/
 
@@ -306,7 +302,7 @@
   list-style: none;
 }
 
-@media (min-width:$tablet-width) {
+@media (min-width: $tablet-width) {
   .form__container {
     padding-left: 50px;
   }
@@ -338,13 +334,13 @@
     font-size: 20px;
     line-height: 30px;
   }
-  .form__input-radio+label::before {
+  .form__input-radio + label::before {
     left: 26px;
     top: -6px;
     width: 40px;
     height: 40px;
   }
-  .form__input-radio:checked+label::after {
+  .form__input-radio:checked + label::after {
     left: 38px;
     top: 8px;
     width: 18px;
@@ -372,7 +368,7 @@
   .form__fieldset--purpose {
     width: 630px;
     margin: 0px;
-    border: 1px solid #E7E7E7;
+    border: 1px solid #e7e7e7;
     box-sizing: border-box;
   }
   .form__owner-title {
@@ -458,7 +454,7 @@
   }
 }
 
-@media (min-width:$desktop-width) {
+@media (min-width: $desktop-width) {
   .form__container {
     display: grid;
     grid-template-columns: 570px 570px;

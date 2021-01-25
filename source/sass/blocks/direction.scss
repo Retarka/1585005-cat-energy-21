@@ -1,6 +1,6 @@
 .direction__item--slim,
 .direction__item--large {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 .direction__item {
@@ -55,7 +55,7 @@
 
 .direction__link {
   position: relative;
-  border-top: 1px solid #D9D9D9;
+  border-top: 1px solid #d9d9d9;
   padding-top: 19px;
   padding-bottom: 22px;
   width: 240px;
@@ -73,7 +73,7 @@
   background-position: 15px 20px;
 }
 
-@media (min-width:$tablet-width) {
+@media (min-width: $tablet-width) {
   .direction {
     margin-top: 90px;
   }
@@ -126,7 +126,7 @@
   }
 }
 
-@media (min-width:$desktop-width) {
+@media (min-width: $desktop-width) {
   .direction__item {
     width: 570px;
   }

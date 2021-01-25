@@ -7,8 +7,7 @@
   position: relative;
 }
 
-
-.wrapper--page-header{
+.wrapper--page-header {
   position: relative;
 }
 
@@ -23,7 +22,7 @@
   background-color: #e6e6e6;
 }
 
-.wrapper--page-header::after{
+.wrapper--page-header::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -43,7 +42,7 @@
   }
 
   .wrapper--page-header::after,
-  .wrapper--page-header::before{
+  .wrapper--page-header::before {
     display: none;
   }
 }

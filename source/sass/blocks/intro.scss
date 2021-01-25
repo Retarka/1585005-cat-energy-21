@@ -21,7 +21,7 @@
   margin-bottom: 38px;
 }
 
-@media (min-width:$tablet-width) {
+@media (min-width: $tablet-width) {
   .intro {
     margin-bottom: 66px;
   }
@@ -50,7 +50,7 @@
   }
 }
 
-@media (min-width:$desktop-width) {
+@media (min-width: $desktop-width) {
   .intro__title--catalog {
     margin-top: 55px;
     margin-bottom: 154px;

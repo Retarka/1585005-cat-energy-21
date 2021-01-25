@@ -6,11 +6,11 @@
 
 .additional-info__item {
   padding-bottom: 25px;
-  border-bottom: 1px solid #CDCDCD;
+  border-bottom: 1px solid #cdcdcd;
 }
 
 .additional-info__item--border {
-  border-top: 1px solid #CDCDCD;
+  border-top: 1px solid #cdcdcd;
 }
 
 .additional-info__container {
@@ -66,17 +66,17 @@
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
-  background-color: #68B738;
-  color: #FFFFFF;
+  background-color: #68b738;
+  color: #ffffff;
   width: 280px;
   height: 40px;
   padding: 11px 109px 5px 109px;
   // padding: 10px 109px 10px 109px;
 }
 
-@media (min-width:$tablet-width) {
+@media (min-width: $tablet-width) {
   .additional-info__list {
-    border: 1px solid #CDCDCD;
+    border: 1px solid #cdcdcd;
     box-sizing: border-box;
   }
   .additional-info__container {
@@ -138,7 +138,7 @@
   }
 }
 
-@media (min-width:$desktop-width) {
+@media (min-width: $desktop-width) {
   .additional-info {
     margin-bottom: 42px;
   }

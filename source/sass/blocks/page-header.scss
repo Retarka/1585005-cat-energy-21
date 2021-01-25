@@ -73,7 +73,7 @@
   height: 38px;
 }
 
-@media (min-width:$tablet-width) {
+@media (min-width: $tablet-width) {
   .page-header {
     padding-top: 20px;
   }
@@ -101,7 +101,7 @@
   }
 }
 
-@media (min-width:$desktop-width) {
+@media (min-width: $desktop-width) {
   .page-header {
     padding-top: 45px;
     z-index: 10;

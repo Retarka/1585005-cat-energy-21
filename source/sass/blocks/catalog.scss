@@ -12,8 +12,8 @@
 }
 
 .catalog__button {
-  color: #FFFFFF;
-  background-color: #68B738;
+  color: #ffffff;
+  background-color: #68b738;
   /*padding: 20px 109px 20px 109px;*/
 }
 
@@ -23,7 +23,7 @@
   padding: 0px;
 }
 
-@media (min-width:$tablet-width) {
+@media (min-width: $tablet-width) {
   .catalog__list {
     display: flex;
     flex-wrap: wrap;
@@ -40,7 +40,7 @@
   }
 }
 
-@media (min-width:$desktop-width) {
+@media (min-width: $desktop-width) {
   .catalog__item {
     width: 245px;
   }
