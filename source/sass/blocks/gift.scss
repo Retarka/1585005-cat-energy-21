@@ -30,10 +30,10 @@
 }
 
 @media  (min-resolution: 144dpi),
-        (min-resolution: 1.5dppx)  {
-.gift{
-  background-image: url("../img/gift-photo-mobile-2x.png");
-}
+(min-resolution: 1.5dppx)  {
+  .gift{
+    background-image: url("../img/gift-photo-mobile-2x.png");
+  }
 }
 
 @media (min-width:$tablet-width) {
@@ -57,11 +57,11 @@
     left: 90px;
   }
   @media  (min-resolution: 144dpi),
-          (min-resolution: 1.5dppx)  {
-  .gift{
-    background-image: url("../img/gift-photo-tablet-2x.png");
+  (min-resolution: 1.5dppx)  {
+    .gift{
+      background-image: url("../img/gift-photo-tablet-2x.png");
+    }
   }
-}
 }
 
 @media (min-width:$desktop-width) {
@@ -81,7 +81,7 @@
   }
 
   .gift--catalog{
-     margin-top: 0px;
+    margin-top: 0px;
   }
 
   .gift__description--catalog{
@@ -89,9 +89,9 @@
     text-align: center;
   }
   @media  (min-resolution: 144dpi),
-          (min-resolution: 1.5dppx)  {
-  .gift{
-    background-image: url("../img/gift-photo-desktop-2x.png");
+  (min-resolution: 1.5dppx)  {
+    .gift{
+      background-image: url("../img/gift-photo-desktop-2x.png");
+    }
   }
-}
 }
