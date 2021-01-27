@@ -36,6 +36,10 @@
   box-sizing: border-box;
 }
 
+.form__input-radio[disabled] + label{
+    opacity: 0.3;
+}
+
 .form__input:hover {
   border: 1px solid #cdcdcd;
 }
@@ -44,7 +48,7 @@
   border: 2px solid #444444;
 }
 
-input:invalid:not(:placeholder-shown) {
+.form__input:invalid{
   border: 2px solid #FF8282;
 }
 
@@ -632,18 +636,18 @@ input:invalid:not(:placeholder-shown) {
     width: 100vw;
   }
 
- .form__comment-title,
- .form__withal-title--form {
-   margin-top: 50px;
-   margin-bottom: 74px;
-   font-size: 36px;
-   line-height: 36px;
+  .form__comment-title,
+  .form__withal-title--form {
+    margin-top: 50px;
+    margin-bottom: 74px;
+    font-size: 36px;
+    line-height: 36px;
   }
 
-.form__withal-title--form {
+  .form__withal-title--form {
     margin-top: 69px;
     margin-bottom: 49px;
-}
+  }
 
   .form__item--comment,
   .form__user {

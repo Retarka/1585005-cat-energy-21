@@ -135,6 +135,11 @@
     display: none;
   }
 
+  .main-nav--closed::after,
+  .main-nav--closed::before {
+    display: none;
+  }
+
   .main-nav__toggle::before {
     display: none;
   }
