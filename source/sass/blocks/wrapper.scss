@@ -33,6 +33,13 @@
   background-color: #e6e6e6;
 }
 
+
+.main-nav--closed,
+.wrapper--page-header::after,
+.wrapper--page-header::before {
+    display: none;
+  }
+
 @media (min-width: $tablet-width) {
   .wrapper {
     width: 707px;
@@ -71,6 +78,13 @@
     display: grid;
     grid-template-columns: 570px 570px;
     grid-gap: 80px;
+  }
+
+  .wrapper--contacts {
+    position: absolute;
+    left: 50%;
+    margin-left: -720px;
+    top: -4px;
   }
 
   /*padding-left:40px;
