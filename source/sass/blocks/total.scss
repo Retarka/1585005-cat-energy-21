@@ -96,7 +96,7 @@
     font-size: 60px;
     line-height: 60px;
     padding-top: 15px;
-    padding-left: 0px;
+    padding-left: 0;
     padding-bottom: 53px;
   }
 
@@ -106,7 +106,7 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-    padding-left: 0px;
+    padding-left: 0;
   }
 
   .total__value {
@@ -134,7 +134,7 @@
   }
 
   .total__list {
-    margin-left: 0px;
+    margin-left: 0;
     padding-top: 30px;
   }
 
@@ -170,13 +170,13 @@
 @media (min-width: $desktop-width) {
   .total__title {
     padding-top: 15px;
-    padding-left: 0px;
+    padding-left: 0;
     padding-bottom: 68px;
   }
 
   .total__description {
     padding: 0;
-    padding-left: 0px;
+    padding-left: 0;
     margin-bottom: 68px;
     width: 436px;
     height: 96px;
@@ -186,8 +186,8 @@
     height: 75px;
     margin-top: 0;
     margin-bottom: 39px;
-    margin-left: 0px;
-    padding-top: 0px;
+    margin-left: 0;
+    padding-top: 0;
   }
 
   .total__item {
@@ -202,7 +202,7 @@
   .total__cost {
     display: flex;
     padding-top: 19px;
-    padding-left: 0px;
+    padding-left: 0;
   }
 
   .total__cost-item {

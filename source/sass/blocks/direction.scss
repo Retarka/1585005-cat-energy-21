@@ -45,7 +45,7 @@
   opacity: 0.3;
 }
 
-.direction__item--slim::before{
+.direction__item--slim::before {
   position: absolute;
   content: "";
   top: 229px;
@@ -56,7 +56,7 @@
   background-repeat: no-repeat;
 }
 
-.direction__item--large::after{
+.direction__item--large::after {
   position: absolute;
   content: "";
   top: 229px;
@@ -66,7 +66,6 @@
   background-image: url("../img/icon_arrow.svg");
   background-repeat: no-repeat;
 }
-
 
 .direction__link {
   position: relative;
@@ -143,16 +142,15 @@
     background-position: 411px 88px;
   }
 
-  .direction__item--slim::before{
+  .direction__item--slim::before {
     top: 293px;
     right: 490px;
   }
 
-  .direction__item--large::after{
+  .direction__item--large::after {
     top: 293px;
     right: 494px;
   }
-
 }
 
 @media (min-width: $desktop-width) {
@@ -188,12 +186,11 @@
     background-position: 33px 47px;
   }
 
-  .direction__item--slim::before{
+  .direction__item--slim::before {
     right: 349px;
   }
 
-  .direction__item--large::after{
+  .direction__item--large::after {
     right: 356px;
   }
-
 }

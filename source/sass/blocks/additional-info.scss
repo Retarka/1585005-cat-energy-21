@@ -75,8 +75,8 @@
 
 @media (min-width: $tablet-width) {
   .additional-info__list {
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 0;
+    margin-right: 0;
     border: 1px solid #cdcdcd;
     box-sizing: border-box;
   }
@@ -200,7 +200,7 @@
   .additional-info__title--catalog {
     padding-top: 42px;
     padding-bottom: 81px;
-    padding-left: 0px;
+    padding-left: 0;
   }
 
   .additional-info__button {

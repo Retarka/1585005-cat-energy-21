@@ -104,7 +104,7 @@
     font-size: 60px;
     line-height: 60px;
     margin-top: 47px;
-    padding-left: 0px;
+    padding-left: 0;
     margin-bottom: 68px;
   }
 
@@ -126,7 +126,7 @@
     font-size: 16px;
     line-height: 24px;
     width: 250px;
-    padding: 96px 0 0 0px;
+    padding: 96px 0 0 0;
   }
 
   .composition__item--benefit {
@@ -170,7 +170,7 @@
   .composition__item--simply::before {
     position: absolute;
     top: 4px;
-    left: 0px;
+    left: 0;
     content: "";
     width: 80px;
     height: 80px;
@@ -236,7 +236,7 @@
   .composition__item--result::before {
     position: absolute;
     top: 4px;
-    left: 0px;
+    left: 0;
     content: "";
     width: 80px;
     height: 80px;
@@ -271,11 +271,11 @@
 
   .composition__title {
     margin-top: 73px;
-    padding-left: 0px;
+    padding-left: 0;
   }
 
   .composition__item--benefit::before {
-    left: 0px;
+    left: 0;
   }
 
   .composition__item--simply::before {
@@ -291,7 +291,7 @@
   }
 
   .composition__item-description {
-    padding-left: 0px;
+    padding-left: 0;
   }
 
   .composition__item-description--simply {
