@@ -147,7 +147,7 @@
     margin: 0;
     padding-top: 90px;
     padding-bottom: 179px;
-    margin-left: -11px;
+    margin-left: -3px;
   }
 
   .promo::before {
@@ -174,7 +174,7 @@
 
   .promo__title,
   .promo__description {
-    padding-left: 23px;
+    padding-left: 19px;
     color: #000000;
     background-color: transparent;
   }
@@ -185,8 +185,8 @@
   }
 
   .promo__image {
-    top: -311px;
-    right: 285px;
+    top: -313px;
+    right: 289px;
     left: auto;
     width: 552px;
     height: 499px;
@@ -194,7 +194,8 @@
   }
 
   .promo__button {
-    margin-left: 15px;
+    margin-top: 22px;
+    margin-left: 10px;
   }
 
   @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
