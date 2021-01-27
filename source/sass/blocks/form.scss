@@ -40,12 +40,12 @@
   border: 1px solid #cdcdcd;
 }
 
-.form__input:focus {
+.form__input:active {
   border: 2px solid #444444;
 }
 
 .form__input:invalid:not(:placeholder-shown) {
-  border: 2px solid #ff8282;
+  border: 2px solid #FF8282;
 }
 
 ::-webkit-input-placeholder {
@@ -468,7 +468,7 @@
   }
 
   .form__withal-title--form {
-    font-family: Oswald;
+    font-family: "Oswald", "Tahoma", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;

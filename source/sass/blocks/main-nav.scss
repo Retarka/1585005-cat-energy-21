@@ -100,8 +100,8 @@
 }
 
 .main-nav--opened .main-nav__toggle {
-  top: 15px;
-  left: 250px;
+  top: 12px;
+  left: 258px;
 }
 
 .main-nav--opened .main-nav--opened::after{
@@ -120,8 +120,8 @@
 .main-nav--opened::after {
   content: "";
   position: absolute;
-  top: 15px;
-  left: 265px;
+  top: 12px;
+  left: 258px;
   width: 18px;
   height: 18px;
   background-image: url("../img/close.svg");
@@ -130,6 +130,15 @@
 }
 
 @media (min-width: $tablet-width) {
+  .main-nav--opened::after,
+  .main-nav--opened::before {
+    display: none;
+  }
+
+  .main-nav__toggle::before {
+    display: none;
+  }
+
   .main-nav__item--current a {
     border-bottom: 2px solid #68b738;
   }
