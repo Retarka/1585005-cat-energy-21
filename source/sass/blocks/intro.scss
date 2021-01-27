@@ -32,25 +32,25 @@
 
   .intro__title--catalog {
     margin-top: 40px;
-    padding-left: 10px;
+    padding-left: 0px;
     font-size: 60px;
     line-height: 60px;
   }
 
   .intro__title--form {
+    margin-top: 40px;
+    padding-left: 38px;
     font-size: 60px;
     line-height: 60px;
-    margin-top: 40px;
-    padding-left: 50px;
-    margin-bottom: 54px;
+    margin-bottom: 53px;
   }
 
   .intro__description--form {
     font-size: 20px;
     line-height: 30px;
     width: 323px;
-    padding-left: 50px;
-    margin-bottom: 66px;
+    padding-left: 40px;
+    margin-bottom: 64px;
   }
 }
 
@@ -62,11 +62,12 @@
   }
 
   .intro__title--form {
-    margin-top: 52px;
-    padding-left: 0;
+    margin-top: 53px;
+    margin-bottom: 57px;
+    padding-left: 0px;
   }
 
   .intro__description--form {
-    padding-left: 0;
+    padding-left: 0px;
   }
 }

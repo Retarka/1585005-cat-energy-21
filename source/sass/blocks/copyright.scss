@@ -12,9 +12,13 @@
 
 @media (min-width: $tablet-width) {
   .copyright__link {
-    padding-right: 13px;
-    padding-top: 30px;
+    padding-right: 24px;
+    padding-top: 34px;
   }
+
+  .copyright__link-logo {
+    padding-top: 25px;
+}
 }
 
 @media (min-width: $desktop-width) {

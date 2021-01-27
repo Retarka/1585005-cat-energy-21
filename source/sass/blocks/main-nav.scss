@@ -85,7 +85,6 @@
 }
 
 .main-nav--closed .main-nav__toggle::before {
-  display: none;
   content: "";
   position: absolute;
   right: 20px;
@@ -101,25 +100,28 @@
 }
 
 .main-nav--opened .main-nav__toggle {
-  top: 0;
+  top: 15px;
   left: 250px;
 }
 
-.main-nav--opened {
+.main-nav--opened .main-nav--opened::after{
   position: absolute;
   width: 18px;
   height: 18px;
   background-color: transparent;
   border: 0;
   cursor: pointer;
+  background-image: url("../img/close.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
 }
 
 .main-nav--opened::before,
 .main-nav--opened::after {
   content: "";
   position: absolute;
-  top: 75px;
-  left: 5px;
+  top: 15px;
+  left: 265px;
   width: 18px;
   height: 18px;
   background-image: url("../img/close.svg");

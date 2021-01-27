@@ -42,18 +42,20 @@
     background-size: 708px auto;
     background-position: 0 0;
     margin-top: 70px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .gift__description {
     text-align: left;
     padding-top: 71px;
-    padding-left: 434px;
-    padding-bottom: 69px;
+    padding-left: 423px;
+    padding-bottom: 67px;
   }
 
   .gift::before {
     top: 58px;
-    left: 90px;
+    left: 79px;
   }
 
   @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
@@ -66,7 +68,7 @@
 @media (min-width: $desktop-width) {
   .gift {
     width: 245px;
-    margin-left: 80px;
+    margin-left: 86px;
     background-image: url("../img/gift-photo-desktop-3.png");
     background-repeat: no-repeat;
     background-size: 245px auto;
@@ -75,12 +77,17 @@
 
   .gift__description {
     padding-top: 185px;
-    padding-left: 10px;
+    padding-left: 3px;
     padding-bottom: 42px;
   }
 
   .gift--catalog {
     margin-top: 0;
+  }
+
+  .gift::before {
+    top: 56px;
+    left: 86px;
   }
 
   .gift__description--catalog {

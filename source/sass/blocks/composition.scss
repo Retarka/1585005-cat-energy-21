@@ -100,12 +100,12 @@
 
   .composition__title {
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 60px;
     line-height: 60px;
-    margin-top: 44px;
-    padding-left: 10px;
-    margin-bottom: 70px;
+    margin-top: 47px;
+    padding-left: 0px;
+    margin-bottom: 68px;
   }
 
   .composition__list {
@@ -126,9 +126,7 @@
     font-size: 16px;
     line-height: 24px;
     width: 250px;
-    padding: 0;
-    padding-top: 95px;
-    padding-left: 10px;
+    padding: 96px 0 0 0px;
   }
 
   .composition__item--benefit {
@@ -139,7 +137,7 @@
   .composition__item--benefit::before {
     position: absolute;
     top: 4px;
-    left: 9px;
+    left: -1px;
     content: "";
     width: 80px;
     height: 80px;
@@ -154,7 +152,7 @@
   .composition__item--1::after {
     position: absolute;
     top: -35px;
-    right: 80px;
+    right: 94px;
     content: "1";
     width: 112px;
     height: 280px;
@@ -172,7 +170,7 @@
   .composition__item--simply::before {
     position: absolute;
     top: 4px;
-    left: 9px;
+    left: 0px;
     content: "";
     width: 80px;
     height: 80px;
@@ -187,7 +185,7 @@
   .composition__item--2::after {
     position: absolute;
     top: -35px;
-    right: 80px;
+    right: 101px;
     content: "2";
     width: 112px;
     height: 280px;
@@ -205,7 +203,7 @@
   .composition__item--functionality::before {
     position: absolute;
     top: 4px;
-    left: 9px;
+    left: -1px;
     content: "";
     width: 80px;
     height: 80px;
@@ -220,7 +218,7 @@
   .composition__item--3::after {
     position: absolute;
     top: -35px;
-    right: 80px;
+    right: 99px;
     content: "3";
     width: 112px;
     height: 280px;
@@ -238,7 +236,7 @@
   .composition__item--result::before {
     position: absolute;
     top: 4px;
-    left: 9px;
+    left: 0px;
     content: "";
     width: 80px;
     height: 80px;
@@ -253,7 +251,7 @@
   .composition__item--4::after {
     position: absolute;
     top: -35px;
-    right: 80px;
+    right: 98px;
     content: "4";
     width: 112px;
     height: 280px;
@@ -273,11 +271,11 @@
 
   .composition__title {
     margin-top: 73px;
-    padding-left: 0;
+    padding-left: 0px;
   }
 
   .composition__item--benefit::before {
-    left: 0;
+    left: 0px;
   }
 
   .composition__item--simply::before {
@@ -293,7 +291,7 @@
   }
 
   .composition__item-description {
-    padding-left: 0;
+    padding-left: 0px;
   }
 
   .composition__item-description--simply {
@@ -308,19 +306,23 @@
     padding-left: 49px;
   }
 
+  .composition__item-hidden {
+    display: none;
+  }
+
   .composition__item--1::after {
-    left: 114px;
+    left: 119px;
   }
 
   .composition__item--2::after {
-    left: 123px;
+    left: 128px;
   }
 
   .composition__item--3::after {
-    left: 142px;
+    left: 146px;
   }
 
   .composition__item--4::after {
-    left: 159px;
+    left: 164px;
   }
 }

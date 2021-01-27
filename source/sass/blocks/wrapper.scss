@@ -60,11 +60,19 @@
   .wrapper--direction {
     display: flex;
     justify-content: space-between;
+    padding-left: 0px;
   }
 
   .wrapper--img {
     padding-left: 100px;
   }
+
+  .wrapper--total {
+    display: grid;
+    grid-template-columns: 570px 570px;
+    grid-gap: 80px;
+  }
+
   /*padding-left:40px;
   padding-right:40px;*/
 }

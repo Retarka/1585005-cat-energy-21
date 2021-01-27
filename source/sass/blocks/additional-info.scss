@@ -76,6 +76,8 @@
 
 @media (min-width: $tablet-width) {
   .additional-info__list {
+    margin-left: 0px;
+    margin-right: 0px;
     border: 1px solid #cdcdcd;
     box-sizing: border-box;
   }
@@ -83,14 +85,14 @@
   .additional-info__container {
     padding-top: 28px;
     padding-bottom: 21px;
-    padding-right: 28px;
+    padding-right: 38px;
   }
 
   .additional-info__title--catalog {
     font-size: 36px;
     line-height: 36px;
     padding-top: 46px;
-    padding-left: 46px;
+    padding-left: 37px;
     padding-bottom: 80px;
   }
 
@@ -104,19 +106,19 @@
     content: "";
     position: absolute;
     top: 68px;
-    right: calc(100% + -10px);
-    width: 4vw;
+    right: calc(100% + 1px);
+    width: 100vw;
     height: 2px;
     background-color: #68b738;
   }
 
   .additional-info__item-title {
-    font-family: "Oswald", "Helvetica", sans-serif;
+    font-family: "Oswald", "Tahoma", sans-serif;
     font-size: 20px;
     line-height: 20px;
     margin-top: 24px;
     margin-bottom: 30px;
-    padding-left: 47px;
+    padding-left: 37px;
   }
 
   .additional-info__button {
@@ -124,8 +126,8 @@
     width: 400px;
     height: 26px;
     padding: 6px 220px;
-    margin-left: 46px;
-    margin-right: 27px;
+    margin-left: 37px;
+    margin-right: 37px;
   }
 
   .additional-info__description {
@@ -199,6 +201,7 @@
   .additional-info__title--catalog {
     padding-top: 42px;
     padding-bottom: 81px;
+    padding-left: 0px;
   }
 
   .additional-info__button {

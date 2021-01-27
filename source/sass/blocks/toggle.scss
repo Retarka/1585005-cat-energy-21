@@ -6,7 +6,7 @@
 }
 
 .toggle__button {
-  font-family: "Oswald", "Helvetica", sans-serif;
+  font-family: "Oswald", "Tahoma", sans-serif;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
@@ -73,7 +73,7 @@
     position: absolute;
     right: 50%;
     bottom: 0;
-    top: 223px;
+    top: 226px;
     width: 49vw;
     height: 462px;
     background-color: #e6e6e6;
@@ -85,7 +85,7 @@
     position: absolute;
     bottom: 0;
     left: 50%;
-    top: 223px;
+    top: 226px;
     width: 49vw;
     height: 462px;
     background-color: #e6e6e6;
@@ -100,7 +100,7 @@
     padding-top: 40px;
     padding-bottom: 0;
     width: 708px;
-    height: 544px;
+    height: 547px;
   }
 
   .toggle__slider {
@@ -122,25 +122,31 @@
   .toggle__button-container::after {
     content: "";
     position: absolute;
-    left: 346px;
-    top: 2px;
+    left: 335px;
+    top: -1px;
     width: 34px;
     height: 34px;
-    background-color: white;
+    background-color: #fff;
     border: 1px solid #cdcdcd;
     border-radius: 50%;
     z-index: 2;
   }
 
   .toggle__button-container:hover::after {
-    border: 1px solid #111111;
+    border: 1px solid #CDCDCD;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.19));
+  }
+
+  .toggle__button-container:active::after{
+    border: 1px solid #68B738;
+    filter: drop-shadow(0px 3px 5px rgba(0, 0, 0, 0.2));
   }
 
   .toggle__button-container::before {
     content: "";
     position: absolute;
-    left: 359px;
-    top: 16px;
+    left: 348px;
+    top: 13px;
     width: 8px;
     height: 8px;
     background-color: #68b738;
@@ -152,8 +158,8 @@
   .toggle__img--before {
     position: absolute;
     content: "";
-    top: 31px;
-    left: 10px;
+    top: 35px;
+    left: 0px;
   }
 
   .toggle__button {
@@ -168,12 +174,12 @@
   }
 
   .toggle__button--right {
-    padding-left: 78px;
+    padding-left: 68px;
     border: none;
   }
 
   .toggle__button--left {
-    padding-right: 59px;
+    padding-right: 70px;
     border: none;
   }
 
@@ -181,10 +187,16 @@
     content: "";
     position: absolute;
     top: 31px;
-    left: 78px;
+    left: 68px;
     width: 47px;
     height: 1px;
     border-bottom: 1px dotted #000000;
+  }
+
+  .toggle__button--right:hover::before,
+  .toggle__button--left:hover::after {
+    opacity: 0.4;
+    border: 1px solid #000000;
   }
 
   .toggle__button--left::after {
@@ -231,13 +243,13 @@
 
   .toggle__button-container::after {
     background-color: white;
-    top: 328px;
+    top: 329px;
     left: 267px;
   }
 
   .toggle__button-container::before {
     left: 280px;
-    top: 340px;
+    top: 342px;
     background-color: #68b738;
   }
 
@@ -246,23 +258,24 @@
   }
 
   .toggle__img--before {
-    left: -87px;
+    left: -79px;
     top: -185px;
   }
 
   .toggle__button-container {
+    width: 577px;
     padding-top: 330px;
   }
 
   .toggle__button--right {
-    padding-left: 0;
+    padding-left: 0px;
   }
 
   .toggle__button--right::before {
-    left: 0;
+    left: 0px;
   }
 
   .toggle__button--left {
-    padding-right: 0;
+    padding-right: 7px;
   }
 }

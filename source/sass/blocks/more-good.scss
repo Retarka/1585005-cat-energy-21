@@ -65,7 +65,7 @@
     width: 134px;
     font-size: 20px;
     line-height: 22px;
-    padding-left: 105px;
+    padding-left: 94px;
     padding-top: 160px;
     padding-bottom: 23px;
   }
@@ -74,7 +74,7 @@
     width: 167px;
     font-size: 16px;
     line-height: 18px;
-    padding-left: 88px;
+    padding-left: 77px;
     padding-bottom: 95px;
   }
 
@@ -93,7 +93,7 @@
     content: "";
     position: absolute;
     top: 50px;
-    left: 140px;
+    left: 130px;
     bottom: 20px;
     width: 60px;
     height: 60px;
@@ -103,17 +103,18 @@
 
 @media (min-width: $desktop-width) {
   .more-good {
+    margin-top: 5px;
     width: 245px;
   }
 
   .more-good::before {
-    top: 62px;
+    top: 54px;
     left: 90px;
   }
 
   .more-good__title {
     padding-left: 55px;
-    padding-top: 170px;
+    padding-top: 164px;
   }
 
   .more-good__description {

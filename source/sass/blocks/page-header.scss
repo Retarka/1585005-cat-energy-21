@@ -91,11 +91,12 @@
   .page-header__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 84px;
+    column-gap: 75px;
     width: 192px;
   }
 
   .page-header__logo {
+    text-align: left;
     width: 192px;
     padding: 0;
   }
@@ -113,7 +114,8 @@
   }
 
   .page-header__container {
-    column-gap: 539px;
+    column-gap: 537px;
+    margin-left: 0px;
   }
 
   .page-header__logo {
