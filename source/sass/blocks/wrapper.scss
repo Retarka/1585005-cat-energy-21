@@ -33,12 +33,11 @@
   background-color: #e6e6e6;
 }
 
-
 .main-nav--closed,
-.wrapper--page-header::after,
-.wrapper--page-header::before {
-    display: none;
-  }
+.wrapper--page-header::before,
+.wrapper--page-header::after {
+  display: none;
+}
 
 @media (min-width: $tablet-width) {
   .wrapper {
@@ -83,8 +82,8 @@
   .wrapper--contacts {
     position: absolute;
     left: 50%;
-    margin-left: -720px;
-    top: -4px;
+    margin-left: -610px;
+    top: 85px;
   }
 
   /*padding-left:40px;
