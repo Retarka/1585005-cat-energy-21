@@ -33,7 +33,7 @@
   background-color: #e6e6e6;
 }
 
-.main-nav--closed,
+
 .wrapper--page-header::before,
 .wrapper--page-header::after {
   display: none;
@@ -82,8 +82,8 @@
   .wrapper--contacts {
     position: absolute;
     left: 50%;
-    margin-left: -610px;
-    top: 85px;
+    margin-left: -720px;
+    top: -2px;
   }
 
   /*padding-left:40px;
